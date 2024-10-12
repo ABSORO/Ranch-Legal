@@ -11,7 +11,7 @@ nav_order: 3
 
 <table style="width: 90%; margin: 20px auto; border-collapse: collapse; font-family: 'Georgia', serif;">
   <thead>
-    <tr style="background-color: #c0392b; color: #fff;">
+    <tr style="background-color: #2c3e50; color: #fff;">
       <th style="border: 1px solid #000; padding: 10px;">Charge</th>
       <th style="border: 1px solid #000; padding: 10px;">Max Time</th>
       <th style="border: 1px solid #000; padding: 10px;">Max Fine</th>
@@ -20,41 +20,52 @@ nav_order: 3
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #f2d7d5;">
+
+    <!-- Capital Felony Charges (Red background) -->
+    <tr style="background-color: #e74c3c; color: #fff;">
       <td style="border: 1px solid #000; padding: 10px;">P.C. 1101 - Capital Murder</td>
       <td style="border: 1px solid #000; padding: 10px;">HUT</td>
       <td style="border: 1px solid #000; padding: 10px;">N/A</td>
-      <td style="border: 1px solid #000; padding: 10px;">Any person who uses any heinous, atrocious, or cruel act manifesting exceptional depravity in the commission of murder in the first or second degree. Any person who deliberately and with premeditation takes the life of a law enforcement official, government official, or medical official, in the commission of their duty, or any witness in a legal proceeding. This crime is considered one of the most severe and is treated with utmost gravity by the State of Monroe.</td>
+      <td style="border: 1px solid #000; padding: 10px;">Any person who uses any heinous, atrocious, or cruel act manifesting exceptional depravity in the commission of murder in the first or second degree...</td>
       <td style="border: 1px solid #000; padding: 10px;"></td>
     </tr>
-    <tr style="background-color: #f2d7d5;">
-      <td style="border: 1px solid #000; padding: 10px;">P.C. 1102 - Cannibalism</td>
+
+    <!-- State Felony Charges - First Degree (Orange background) -->
+    <tr style="background-color: #e67e22; color: #fff;">
+      <td style="border: 1px solid #000; padding: 10px;">P.C. 2101 - 1st Degree Murder</td>
       <td style="border: 1px solid #000; padding: 10px;">HUT</td>
       <td style="border: 1px solid #000; padding: 10px;">N/A</td>
-      <td style="border: 1px solid #000; padding: 10px;">Any person who knowingly and willingly consumes human flesh, or who coerces another person to eat human flesh through deception, threats, or force. The crime of cannibalism is viewed as a direct affront to humanity and the principles upon which the State is founded, meriting strict judicial action.</td>
+      <td style="border: 1px solid #000; padding: 10px;">No person shall act in the unlawful killing of human beings with a premeditated design to effect the death...</td>
+      <td style="border: 1px solid #000; padding: 10px;">Not to be used for typical gunfights...</td>
+    </tr>
+
+    <!-- State Felony Charges - Second Degree (Yellow background) -->
+    <tr style="background-color: #f1c40f; color: #fff;">
+      <td style="border: 1px solid #000; padding: 10px;">P.C. 2201 - 2nd Degree Murder</td>
+      <td style="border: 1px solid #000; padding: 10px;">5 Years</td>
+      <td style="border: 1px solid #000; padding: 10px;">N/A</td>
+      <td style="border: 1px solid #000; padding: 10px;">No person shall act in the unlawful killing of human beings without premeditated design...</td>
       <td style="border: 1px solid #000; padding: 10px;"></td>
     </tr>
-    <tr style="background-color: #f2d7d5;">
-      <td style="border: 1px solid #000; padding: 10px;">P.C. 1103 - Mayhem</td>
-      <td style="border: 1px solid #000; padding: 10px;">2-3 Year(s)</td>
-      <td style="border: 1px solid #000; padding: 10px;">$300</td>
-      <td style="border: 1px solid #000; padding: 10px;">Any violent behavior or act committed within the confines of a Town, City, or Native Reservation that deprives citizens of Monroe of life on a mass scale or an act that could be reasonably expected to have caused such an outcome. Examples include throwing dynamite in the middle of town or acts of intentional violence against the general citizenry of the town, not a specific group. Such acts are seen as a direct threat to public safety and are dealt with decisively.</td>
-      <td style="border: 1px solid #000; padding: 10px;">This charge must be authorized by the Chief Justice, Sheriff, Undersheriff of the Monroe Sheriff's Office, or the Chief Marshal of the State of Monroe.</td>
+
+    <!-- Misdemeanor Charges (Green background) -->
+    <tr style="background-color: #27ae60; color: #fff;">
+      <td style="border: 1px solid #000; padding: 10px;">P.C. 3101 - Battery</td>
+      <td style="border: 1px solid #000; padding: 10px;">30 Days</td>
+      <td style="border: 1px solid #000; padding: 10px;">$20</td>
+      <td style="border: 1px solid #000; padding: 10px;">Any person who partakes in the unlawful application of force directly or indirectly upon another person...</td>
+      <td style="border: 1px solid #000; padding: 10px;">Held locally</td>
     </tr>
-    <tr style="background-color: #f2d7d5;">
-      <td style="border: 1px solid #000; padding: 10px;">P.C. 1104 - Insurrection</td>
-      <td style="border: 1px solid #000; padding: 10px;">7 Years</td>
-      <td style="border: 1px solid #000; padding: 10px;">$300</td>
-      <td style="border: 1px solid #000; padding: 10px;">Any attempt at a violent uprising against the government of the State of Monroe or the United States of America. Insurrection is viewed as a fundamental betrayal of the state's trust and stability, carrying severe penalties to deter such behavior.</td>
-      <td style="border: 1px solid #000; padding: 10px;">This charge must be authorized by the Chief Justice, Sheriff, Undersheriff of the Monroe Sheriff's Office, or the Chief Marshal of the State of Monroe.</td>
-    </tr>
-    <tr style="background-color: #f2d7d5;">
-      <td style="border: 1px solid #000; padding: 10px;">P.C. 1105 - Torture</td>
-      <td style="border: 1px solid #000; padding: 10px;">3 Years</td>
+
+    <!-- Non-Criminal Infractions (Light blue background) -->
+    <tr style="background-color: #3498db; color: #fff;">
+      <td style="border: 1px solid #000; padding: 10px;">P.C. 4101 - Excessive Speeds</td>
       <td style="border: 1px solid #000; padding: 10px;">N/A</td>
-      <td style="border: 1px solid #000; padding: 10px;">No person shall act with intent or willful negligence to inflict severe physical or mental pain or suffering upon another person within his custody or physical control without a lawful reason to do so. No person shall engage in behavior designed or intended to deprive a citizen of Monroe of their bodily functions or appendages in a malicious manner, including the rending useless of the aforementioned. Torture represents one of the most heinous crimes and is treated with utmost severity by the judicial system.</td>
-      <td style="border: 1px solid #000; padding: 10px;">This is the maximum penalty for severe instances of torture. The extent of the torture should be considered, and time adjusted accordingly. Body part loss = Max Time.</td>
+      <td style="border: 1px solid #000; padding: 10px;">$10</td>
+      <td style="border: 1px solid #000; padding: 10px;">No person shall travel while on horseback or operating a wagon at speeds greater than a trot while in a city...</td>
+      <td style="border: 1px solid #000; padding: 10px;"></td>
     </tr>
+
   </tbody>
 </table>
 

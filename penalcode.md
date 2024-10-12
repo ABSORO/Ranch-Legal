@@ -143,10 +143,10 @@ nav_order: 3
     Max Fine: $40<br>
     Definition: Evading or attempting to evade or elude any Law Enforcement Officer acting within their duties or other circumstances which would require a person to stop.</p>
 
-    <p><span class="misdemeanor">Misdemeanor: Criminal Threats</span><br>
+        <p><span class="misdemeanor">Misdemeanor: Criminal Threats</span><br>
     Max Time: 20 Days<br>
     Max Fine: $10<br>
-    Definition: A person who without lawful excuse makes to another a threat, intending that that other would fear it would be carried out, to kill or harm that other.</p>
+    Definition: A person who, without lawful excuse, makes a threat to another, intending that the other would fear that it would be carried out, to kill or harm that other.</p>
 </div>
 
 <button class="accordion">Non-Criminal Infractions</button>
@@ -154,7 +154,7 @@ nav_order: 3
     <p><span class="non-criminal-infraction">Non-Criminal Infraction: Excessive Speeds</span><br>
     Max Time: None<br>
     Max Fine: $10<br>
-    Definition: No person shall travel while on horseback or operating a wagon at speeds greater than a trot while in a city, town or settlement.</p>
+    Definition: No person shall travel while on horseback or operating a wagon at speeds greater than a trot while in a city, town, or settlement.</p>
 
     <p><span class="non-criminal-infraction">Non-Criminal Infraction: Covering the Face</span><br>
     Max Time: None<br>
@@ -211,4 +211,3 @@ nav_order: 3
         });
     }
 </script>
-

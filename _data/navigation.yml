@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Constitution"
+    url: "/constitution/"
+  - title: "Penal Code"
+    url: "/penal-code/"
+  - title: "Legal Procedures"
+    url: "/procedures/"
+  - title: "Resources"
+    url: "/resources/"

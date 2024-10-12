@@ -12,7 +12,7 @@ Welcome to the official resource hub for all things related to Ranch Roleplay's 
 - Lawyers
 - Citizens
 
-## About this Site
+### About this Site
 
 Here, you can access the official Constitution, Penal Code, legal procedures, and other essential documents that govern the State of Monroe. Our goal is to provide a clear, simple, and easy-to-navigate platform that ensures everyone in the community can find **accurate legal information** and reference in-character documents.
 

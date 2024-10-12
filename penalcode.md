@@ -62,13 +62,12 @@ nav_order: 3
     }
 </style>
 
-<div class="important-note">
-    <strong>Notes:</strong>
-    <p>HUT = Hold Until Trial: A Judge shall sentence or give a trial based on the individual's plea.</p>
-    <p>Sentences may deviate if agreed by all parties involved for storytelling purposes.</p>
-    <p>Lawmen are encouraged to adjust times and fines for circumstances to foster better roleplay experiences.</p>
-    <p>Sentences of 401 days can transition to years (401 Days = 1 Year, etc.).</p>
-</div>
+
+<strong>Notes:</strong>
+<p>HUT = Hold Until Trial: A Judge shall sentence or give a trial based on the individual's plea.</p>
+<p>Sentences may deviate if agreed by all parties involved for storytelling purposes.</p>
+<p>Lawmen are encouraged to adjust times and fines for circumstances to foster better roleplay experiences.</p>
+<p>Sentences of 401 days can transition to years (401 Days = 1 Year, etc.).</p>
 
 <table class="penal-code-table">
     <thead>

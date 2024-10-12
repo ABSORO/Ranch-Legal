@@ -27,3 +27,31 @@ nav_order: 3
 **Notes:** Not to be used for typical gunfights or ambushes. There should be real RP behind the incident to show true premeditation.
 
 [Continue adding charges in the same format.]
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => {
+                const header = document.createElement("div");
+                header.innerHTML = data;
+                document.body.prepend(header);
+            });
+
+        fetch("sidebar.html")
+            .then(response => response.text())
+            .then(data => {
+                const sidebar = document.createElement("div");
+                sidebar.innerHTML = data;
+                document.body.prepend(sidebar);
+            });
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                const footer = document.createElement("div");
+                footer.innerHTML = data;
+                document.body.appendChild(footer);
+            });
+    });
+</script>

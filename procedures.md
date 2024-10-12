@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: custom
 title: Legal Procedures
 nav_order: 4
 ---

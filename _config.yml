@@ -10,12 +10,6 @@ baseurl: "" # Leave this empty unless your site is in a subdirectory
 # Enable search functionality
 search_enabled: true
 
-# Navigation links in the top right corner
-aux_links:
-  Home:
-    url: "/index.md"
-    external: false
-
 # Exclude pages from search (if any)
 # exclude:
 #   - "path/to/page.md"

@@ -1,32 +1,33 @@
 ---
 layout: splash
-title: "State of Monroe Legal System"
+title: "State of Monroe Legal Resources"
 nav_order: 1
 permalink: /
 header:
   overlay_image: /assets/images/DOJemblem.png
   overlay_filter: 0.2
-  caption: "Ensuring Justice and Fairness in the State of Monroe"
-  actions:
-    - label: "Explore the Constitution"
-      url: "/constitution/"
-      class: "btn btn-primary"
+  caption: "An Unofficial Compilation of Legal Resources for the Community"
 ---
 
-# Welcome to the State of Monroe Legal System
+# Welcome to the State of Monroe Legal Resources
 
 <div class="intro-text">
-Welcome to the **State of Monroe Legal System** website. This is the official legal resource hub for the State of Monroe, providing comprehensive information on the state's Constitution, Penal Code, Legal Procedures, and resources for law enforcement officers, legal practitioners, and citizens.
+**Out of Character (OOC) Notice:**
 
-Our goal is to ensure that all residents and officials within the State of Monroe have easy access to the laws and legal guidelines that govern our society, promoting transparency, fairness, and justice for all.
+This website serves as an unofficial resource for the community, compiling all legal documents and information related to the State of Monroe roleplay setting. Our goal is to provide a centralized location where players can access the Constitution, Penal Code, Legal Procedures, and other resources for both In-Character (IC) and Out-of-Character (OOC) reference.
+
+By offering these materials, we aim to enhance the roleplaying experience by ensuring that all participants have a clear understanding of the laws and legal systems within the State of Monroe. This promotes consistent and immersive interactions within the community.
+
+Please note that this site is not affiliated with any official entities within the roleplay environment. It is created and maintained by community members for the benefit of all participants.
+
 </div>
 
 ---
 
-## **Explore Our Resources**
+## **Available Resources**
 
 ### [Constitution](/constitution/)
-Discover the foundational laws and rights that govern the State of Monroe as established in our Constitution.
+Access the foundational laws and rights that govern the State of Monroe within the roleplay setting.
 
 ### [Penal Code](/penal-code/)
 Review the comprehensive Penal Code, including offenses, definitions, and penalties applicable within the State of Monroe.
@@ -35,35 +36,32 @@ Review the comprehensive Penal Code, including offenses, definitions, and penalt
 Understand the legal processes and protocols, including sentencing guidelines, trial procedures, and the rights of the accused.
 
 ### [Resources](/resources/)
-Access a collection of resources, including the Law Enforcement Handbook, Legal Practitioner's Manual, and Citizens' Rights Pamphlet.
+Find additional materials such as the Law Enforcement Handbook, Legal Practitioner's Manual, and Citizens' Rights Pamphlet.
 
 ---
 
 ## **About This Site**
 
-This website serves as an authoritative source for all legal matters within the State of Monroe. Whether you're a citizen seeking to understand your rights, a legal practitioner needing reference materials, or a law enforcement officer looking for procedural guidelines, this hub is designed to meet your needs.
+This website is designed to support the roleplaying community by providing easy access to essential legal documents and guidelines. By centralizing these resources, we hope to:
 
-We are committed to maintaining the highest standards of legal transparency and accessibility, ensuring that justice is served fairly and efficiently throughout the state.
-
----
-
-## **Latest Updates**
-
-- **October 11, 2023:** Website launched with updated legal documents and resources.
-- **September 30, 2023:** Revised Penal Code to include new amendments.
-- **September 15, 2023:** Updated Legal Procedures with the latest sentencing guidelines.
-
-[View all updates](/updates/)
+- **Enhance Immersion:** Allow players to engage more deeply with the legal aspects of the roleplay setting.
+- **Promote Consistency:** Ensure that all participants have access to the same information, reducing misunderstandings.
+- **Support New Players:** Provide a starting point for those new to the community or unfamiliar with the State of Monroe's legal systems.
 
 ---
 
-## **Contact Us**
+## **Disclaimer**
 
-For inquiries, suggestions, or legal assistance, please reach out to us:
+This is an **unofficial** site created by and for the community. It is not endorsed by any official bodies within the roleplay environment. All content is intended for use within the context of the State of Monroe roleplay and should not be considered real legal advice or documentation.
 
-- **Email:** [contact@stateofmonroe.gov](mailto:contact@stateofmonroe.gov)
-- **Address:** 123 Justice Avenue, Capital City, State of Monroe
-- **Phone:** (123) 456-7890
+---
+
+## **Contact Information**
+
+If you have any questions, suggestions, or contributions, please reach out to us:
+
+- **Discord:** Join our community server at [Discord Invite Link]([#](https://discord.com/invite/Sc3Ur4Uxpp)) <!-- Replace # with the actual link -->
+- **GitHub Repository:** [State of Monroe Legal Resources](https://github.com/absoro/ranch-legal) <!-- Replace with actual URL -->
 
 ---
 

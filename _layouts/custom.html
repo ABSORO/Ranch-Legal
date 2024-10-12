@@ -1,13 +1,89 @@
----
-layout: single
----
-
-{% include header.html %}
-
-<main id="main" role="main">
-  <div class="container">
-    {{ content }}
-  </div>
-</main>
-
-{% include footer.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State of Monroe Legal System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #2c3e50;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2c3e50;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .search-container {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .search-container input {
+            padding: 10px;
+            font-size: 1rem;
+            width: 60%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>State of Monroe Legal System</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="constitution.html">Constitution</a>
+        <a href="penal-code.html">Penal Code</a>
+        <a href="procedures.html">Procedures</a>
+        <a href="resources.html">Resources</a>
+    </nav>
+    <main>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." />
+        </div>
+        <h2>Welcome to the State of Monroe Legal System Page</h2>
+        <p>Here you will find all the necessary documents, resources, and information related to the State of Monroe's legal system, including the Constitution, Penal Code, Procedures, and other important legal resources.</p>
+        <p>Our goal is to provide a clean, simple, and easy-to-navigate resource for all things related to the legal roleplay in Monroe. Please select from the navigation above to begin.</p>
+    </main>
+    <footer>
+        <p>&copy; 1900 State of Monroe Legal System - All Rights Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,3 +1,8 @@
+---
+title: "Home"
+nav_order: 3
+---
+
 <style>
     .accordion {
         background-color: #f1f1f1;

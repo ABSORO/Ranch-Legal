@@ -3,166 +3,138 @@ title: "Penal Code"
 nav_order: 3
 ---
 <style>
-    .tab {
-        overflow: hidden;
-        border-bottom: 1px solid #ccc;
-        background-color: #f1f1f1;
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 16px;
     }
 
-    .tab button {
-        background-color: inherit;
-        float: left;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        transition: 0.3s;
-        font-size: 17px;
-    }
-
-    .tab button:hover {
-        background-color: #ddd;
-    }
-
-    .tab button.active {
-        background-color: #cceeff;
-    }
-
-    .tabcontent {
-        display: none;
+    .card {
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: calc(33% - 16px);
         padding: 16px;
-        border-top: none;
+        box-sizing: border-box;
+        transition: transform 0.2s;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card-title {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 8px;
     }
 
     .capital-felony {
         color: #d32f2f;
-        font-weight: bold;
     }
+
     .state-felony {
         color: #f57c00;
-        font-weight: bold;
     }
+
     .misdemeanor {
         color: #fbc02d;
-        font-weight: bold;
     }
+
     .non-criminal-infraction {
         color: #388e3c;
-        font-weight: bold;
     }
+
     .modifier {
         color: #1976d2;
-        font-weight: bold;
+    }
+
+    .card-content {
+        font-size: 0.95em;
+        line-height: 1.5;
     }
 </style>
 
-<div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'CapitalFelonies')">Capital Felonies</button>
-    <button class="tablinks" onclick="openTab(event, 'StateFelonies')">State Felonies</button>
-    <button class="tablinks" onclick="openTab(event, 'Misdemeanors')">Misdemeanors</button>
-    <button class="tablinks" onclick="openTab(event, 'Infractions')">Non-Criminal Infractions</button>
-    <button class="tablinks" onclick="openTab(event, 'Modifiers')">Modifiers</button>
+<h2>Penal Code Categories</h2>
+<div class="card-container">
+
+    <!-- Capital Felony Card -->
+    <div class="card">
+        <div class="card-title capital-felony">Capital Felony: Capital Murder</div>
+        <div class="card-content">
+            <strong>Max Time:</strong> HUT<br>
+            <strong>Max Fine:</strong> None<br>
+            <strong>Definition:</strong> Any person who uses any heinous, atrocious, or cruel act manifesting exceptional depravity in the commission of murder in the first or second degree.
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-title capital-felony">Capital Felony: Cannibalism</div>
+        <div class="card-content">
+            <strong>Max Time:</strong> HUT<br>
+            <strong>Max Fine:</strong> None<br>
+            <strong>Definition:</strong> Any person who knowingly and willingly consumes human flesh, or who coerces another person to eat human flesh through deception, threats, or force.
+        </div>
+    </div>
+
+    <!-- State Felony Card -->
+    <div class="card">
+        <div class="card-title state-felony">State Felony: 1st Degree Murder</div>
+        <div class="card-content">
+            <strong>Max Time:</strong> HUT<br>
+            <strong>Max Fine:</strong> None<br>
+            <strong>Definition:</strong> No person shall act in the unlawful killing of human beings with a premeditated design to effect the death of the person killed and shall be held equally liable if death occurs from any premeditated act.
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-title state-felony">State Felony: Attempted 1st Degree Murder</div>
+        <div class="card-content">
+            <strong>Max Time:</strong> 1 Year<br>
+            <strong>Max Fine:</strong> $200<br>
+            <strong>Definition:</strong> No person shall attempt the act of unlawful killing of human beings with a premeditated design to effect the death of the person being attempted upon.
+        </div>
+    </div>
+
+    <!-- Misdemeanor Card -->
+    <div class="card">
+        <div class="card-title misdemeanor">Misdemeanor: Battery</div>
+        <div class="card-content">
+            <strong>Max Time:</strong> 30 Days<br>
+            <strong>Max Fine:</strong> $20<br>
+            <strong>Definition:</strong> Any person who partakes in the unlawful application of force directly or indirectly upon another person, causing bodily injury or offensive contact.
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-title misdemeanor">Misdemeanor: Criminal Threats</div>
+        <div class="card-content">
+            <strong>Max Time:</strong> 20 Days<br>
+            <strong>Max Fine:</strong> $10<br>
+            <strong>Definition:</strong> A person who without lawful excuse makes a threat to another, intending that the other would fear it would be carried out.
+        </div>
+    </div>
+
+    <!-- Non-Criminal Infraction Card -->
+    <div class="card">
+        <div class="card-title non-criminal-infraction">Non-Criminal Infraction: Excessive Speeds</div>
+        <div class="card-content">
+            <strong>Max Time:</strong> None<br>
+            <strong>Max Fine:</strong> $10<br>
+            <strong>Definition:</strong> No person shall travel while on horseback or operating a wagon at speeds greater than a trot while in a city, town, or settlement.
+        </div>
+    </div>
+
+    <!-- Modifier Card -->
+    <div class="card">
+        <div class="card-title modifier">Modifier: Aiding and Abetting</div>
+        <div class="card-content">
+            <strong>Max Time:</strong> 50% of time of primary offense<br>
+            <strong>Max Fine:</strong> Varies based on primary offense<br>
+            <strong>Definition:</strong> No person shall command, aid, abet, or advise another in the commission or conspiracy to commit a crime.
+        </div>
+    </div>
+
 </div>
-
-<div id="CapitalFelonies" class="tabcontent">
-    <h3>Capital Felonies</h3>
-    <p><span class="capital-felony">Capital Felony: Capital Murder</span><br>
-    Max Time: HUT<br>
-    Max Fine: None<br>
-    Definition: Any person who uses any heinous, atrocious, or cruel act manifesting exceptional depravity in the commission of murder in the first or second degree...</p>
-
-    <p><span class="capital-felony">Capital Felony: Cannibalism</span><br>
-    Max Time: HUT<br>
-    Max Fine: None<br>
-    Definition: Any person who knowingly and willingly consumes human flesh...</p>
-
-    <!-- Add more capital felony offenses here -->
-</div>
-
-<div id="StateFelonies" class="tabcontent">
-    <h3>State Felonies</h3>
-    <p><span class="state-felony">State Felony: 1st Degree Murder</span><br>
-    Max Time: HUT<br>
-    Max Fine: None<br>
-    Definition: No person shall act in the unlawful killing of human beings with a premeditated design...</p>
-
-    <p><span class="state-felony">State Felony: Attempted 1st Degree Murder</span><br>
-    Max Time: 1 Year<br>
-    Max Fine: $200<br>
-    Definition: No person shall attempt the act of unlawful killing of human beings with a premeditated design...</p>
-
-    <!-- Add more state felony offenses here -->
-</div>
-
-<div id="Misdemeanors" class="tabcontent">
-    <h3>Misdemeanors</h3>
-    <p><span class="misdemeanor">Misdemeanor: Battery</span><br>
-    Max Time: 30 Days<br>
-    Max Fine: $20<br>
-    Definition: Any person who partakes in the unlawful application of force directly or indirectly upon another person...</p>
-
-    <p><span class="misdemeanor">Misdemeanor: Criminal Threats</span><br>
-    Max Time: 20 Days<br>
-    Max Fine: $10<br>
-    Definition: A person who without lawful excuse makes to another a threat...</p>
-
-    <!-- Add more misdemeanor offenses here -->
-</div>
-
-<div id="Infractions" class="tabcontent">
-    <h3>Non-Criminal Infractions</h3>
-    <p><span class="non-criminal-infraction">Non-Criminal Infraction: Excessive Speeds</span><br>
-    Max Time: None<br>
-    Max Fine: $10<br>
-    Definition: No person shall travel while on horseback or operating a wagon at speeds greater than a trot...</p>
-
-    <p><span class="non-criminal-infraction">Non-Criminal Infraction: Covering the Face</span><br>
-    Max Time: None<br>
-    Max Fine: $10<br>
-    Definition: No person shall wear any kind of mask, bandana, or facial covering within a town or city...</p>
-
-    <!-- Add more infractions here -->
-</div>
-
-<div id="Modifiers" class="tabcontent">
-    <h3>Modifiers</h3>
-    <p><span class="modifier">Modifier: Aiding and Abetting</span><br>
-    Max Time: 50% of time of primary offense<br>
-    Max Fine: Varies based on primary offense<br>
-    Definition: No person shall command, aid, abet, or advise another in the commission or conspiracy to commit a crime...</p>
-
-    <p><span class="modifier">Modifier: Habitual Offender</span><br>
-    Max Time: Enhanced penalty based on history<br>
-    Max Fine: Enhanced penalty based on history<br>
-    Definition: A person who repeatedly commits the same or similar offenses may receive increased penalties...</p>
-
-    <!-- Add more modifiers here -->
-</div>
-
-<script>
-    function openTab(evt, tabName) {
-        var i, tabcontent, tablinks;
-
-        // Hide all tab contents
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-
-        // Remove the active class from all tab buttons
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-
-        // Show the current tab and add an active class to the button
-        document.getElementById(tabName).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
-
-    // By default, open the first tab
-    document.addEventListener("DOMContentLoaded", function() {
-        document.querySelector(".tablinks").click();
-    });
-</script>
 

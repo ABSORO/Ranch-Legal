@@ -3,7 +3,7 @@ title: "Home"
 nav_order: 1
 ---
 
-# State of Monroe Legal Resources
+## State of Monroe Legal Resources
 
 Welcome to the official resource hub for all things related to Ranch Roleplay's State of Monroe legal system. This site is designed for everyone involved in the roleplay community, including:
 
@@ -18,7 +18,7 @@ Here, you can access the official Constitution, Penal Code, legal procedures, an
 
 > **Note**: Only the legal documents and case laws provided on this site are considered **official and canon** to the server's lore. Documents not provided by Ranch Roleplay management should not be referenced in-character.
 
-## Resources Available
+### Resources Available
 
 - **Constitution**: Foundational laws of the State of Monroe.
 - **Penal Code**: List of crimes and their punishments.
@@ -27,7 +27,7 @@ Here, you can access the official Constitution, Penal Code, legal procedures, an
 
 Please select a topic from the navigation menu to begin exploring our legal resources.
 
-## Community Engagement
+### Community Engagement
 
 If you have any questions or need assistance, reach out to the appropriate in-character authorities or join our community Discord for support:
 

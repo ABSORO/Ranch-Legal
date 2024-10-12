@@ -2,7 +2,6 @@
 title: "Penal Code"
 nav_order: 3
 ---
-
 <style>
     .accordion {
         background-color: #e6f7ff;
@@ -81,7 +80,7 @@ nav_order: 3
     Definition: No person shall act with intent or willful negligence to inflict severe physical or mental pain or suffering upon another person within their custody or physical control without a lawful reason to do so. No person shall engage in an act or behavior designed or intended to deprive a citizen of Monroe of their bodily functions or appendages in a malicious manner, including the rending useless of the aforementioned.</p>
 </div>
 
-<button class="accordion">State Felonies</button>
+<button class="accordion">State Felonies - First Degree</button>
 <div class="panel">
     <p><span class="state-felony">State Felony: 1st Degree Murder</span><br>
     Max Time: HUT<br>
@@ -102,55 +101,98 @@ nav_order: 3
     Max Time: 1 Year<br>
     Max Fine: $200<br>
     Definition: Any individual, or group of individuals, who attempts or successfully frees someone from law enforcement custody without lawful authority is guilty of this crime. Any individual who flees or allows themselves to be removed from lawful custody under unlawful circumstances is guilty of this crime.</p>
+
+    <p><span class="state-felony">State Felony: Corruption</span><br>
+    Max Time: HUT<br>
+    Max Fine: None<br>
+    Definition: No person shall utilize their office to acquire benefit, pervert the course of justice, or wilfully deprive a person of their rights or engage in unlawful conduct while acting in an official duty nor shall any person in an official office fail to report, conceal, or cover up any felony. Eligible for parole. Corruption must be approved out of character via an LFM Ticket. And can potentially lead to a CK on your character.</p>
+</div>
+
+<button class="accordion">State Felonies - Second Degree</button>
+<div class="panel">
+    <p><span class="state-felony">State Felony: 2nd Degree Murder</span><br>
+    Max Time: 5 Years<br>
+    Max Fine: None<br>
+    Definition: No person shall act in the unlawful killing of human beings without premeditated design to effect the death of the person killed and shall be held equally liable if death occurs from any non-premeditated act.</p>
+
+    <p><span class="state-felony">State Felony: Manslaughter</span><br>
+    Max Time: 1 Year<br>
+    Max Fine: $100<br>
+    Definition: Unintentionally causing the death of an individual through an act that was neither excusable nor justified without malicious aforethought.</p>
+
+    <p><span class="state-felony">State Felony: Failure to Appear</span><br>
+    Max Time: HUT<br>
+    Max Fine: None<br>
+    Definition: No person shall fail to appear in court on their scheduled court date. This will result in a bench warrant being issued by the presiding judge, and a default judgement being applied concerning the original criminal proceeding. No bail available.</p>
 </div>
 
 <button class="accordion">Misdemeanors</button>
 <div class="panel">
-    <p><span class="misdemeanor">Misdemeanor: Evading a Law Enforcement Officer</span><br>
-    Max Time: 60 Days<br>
-    Max Fine: $50<br>
-    Definition: Willfully fleeing or attempting to evade a law enforcement officer.</p>
-
-    <p><span class="misdemeanor">Misdemeanor: False Impersonation</span><br>
-    Max Time: 45 Days<br>
-    Max Fine: $75<br>
-    Definition: Falsely representing oneself as another person with intent to deceive.</p>
-
     <p><span class="misdemeanor">Misdemeanor: Battery</span><br>
     Max Time: 30 Days<br>
     Max Fine: $20<br>
-    Definition: Any person who partakes in the unlawful application of force directly or indirectly upon another person, causing bodily injury or offensive contact is guilty of Battery.</p>
+    Definition: Any person who partakes in the unlawful application of force directly or indirectly upon another person, causing bodily injury or offensive contact is guilty of Battery. No person shall touch or strike another person without their permission. In order for Battery to be charged, a victim needs to be willing to press charges. If no victim exists, no charge can be brought.</p>
+
+    <p><span class="misdemeanor">Misdemeanor: False Impersonation</span><br>
+    Max Time: 60 Days<br>
+    Max Fine: $50<br>
+    Definition: No person shall, without lawful authority, deliberately cause another to believe he or she holds a position of a public servant in any capacity. No person shall represent themselves in a fraudulent manner, causing others to identify or recognize them as someone or something they are not in order to receive some benefit or cause damages.</p>
+
+    <p><span class="misdemeanor">Misdemeanor: Evading a Law Enforcement Officer</span><br>
+    Max Time: 30 Days<br>
+    Max Fine: $40<br>
+    Definition: Evading or attempting to evade or elude any Law Enforcement Officer acting within their duties or other circumstances which would require a person to stop.</p>
+
+    <p><span class="misdemeanor">Misdemeanor: Criminal Threats</span><br>
+    Max Time: 20 Days<br>
+    Max Fine: $10<br>
+    Definition: A person who without lawful excuse makes to another a threat, intending that that other would fear it would be carried out, to kill or harm that other.</p>
 </div>
 
 <button class="accordion">Non-Criminal Infractions</button>
 <div class="panel">
     <p><span class="non-criminal-infraction">Non-Criminal Infraction: Excessive Speeds</span><br>
     Max Time: None<br>
-    Max Fine: $20<br>
-    Definition: Riding or operating a horse or vehicle at a speed that is considered dangerous or reckless.</p>
+    Max Fine: $10<br>
+    Definition: No person shall travel while on horseback or operating a wagon at speeds greater than a trot while in a city, town or settlement.</p>
 
-    <p><span class="non-criminal-infraction">Non-Criminal Infraction: Trespassing</span><br>
+    <p><span class="non-criminal-infraction">Non-Criminal Infraction: Covering the Face</span><br>
     Max Time: None<br>
-    Max Fine: $50<br>
-    Definition: Entering a private property without authorization or lawful reason.</p>
+    Max Fine: $10<br>
+    Definition: No person shall wear any kind of mask, bandana, or facial covering within a town or city, except for those with bonafide medical documentation supporting a cause for such.</p>
+
+    <p><span class="non-criminal-infraction">Non-Criminal Infraction: Brandishing a Weapon</span><br>
+    Max Time: None<br>
+    Max Fine: $10<br>
+    Definition: No person shall, without lawful reason, wave or flourish a weapon as a threat, in anger, or in excitement. No person shall unholster or display a firearm while located within the confines of a Town, City, or Settlement within the State of Monroe. A person may carry a longarm beside them and is not required under this law to have that weapon slung on their back.</p>
 </div>
 
 <button class="accordion">Modifiers</button>
 <div class="panel">
     <p><span class="modifier">Modifier: Aiding and Abetting</span><br>
-    Max Time: Varies based on primary offense<br>
+    Max Time: 50% of time of primary offense<br>
     Max Fine: Varies based on primary offense<br>
-    Definition: Assisting another person in the commission of a crime.</p>
+    Definition: No person shall command, aid, abet, or advise another in the commission or conspiracy to commit a crime, knowingly assist someone after they have committed any crime by helping them evade arrest, trial, conviction, or punishment.</p>
 
     <p><span class="modifier">Modifier: Habitual Offender</span><br>
     Max Time: Enhanced penalty based on history<br>
     Max Fine: Enhanced penalty based on history<br>
-    Definition: A person who repeatedly commits the same or similar offenses, warranting increased penalties.</p>
+    Definition: A person who repeatedly commits the same or similar offenses may receive increased penalties.</p>
 
-    <p><span class="modifier">Modifier: Public Servants Enhancement</span><br>
+    <p><span class="modifier">Modifier: Public Servant Enhancement</span><br>
     Max Time: 60 Days<br>
     Max Fine: None<br>
-    Definition: Persons charged with crimes that are against those who are public servants whilst in the commission of their duties shall have their sentence increased. USE ONLY IN FELONY CRIMES. Public Servant refers to Law Enforcement, Government, and Doctors. Shall not apply to Capital Murder.</p>
+    Definition: Persons charged with crimes that are against those who are public servants while in the commission of their duties shall have their sentence increased. USE ONLY IN FELONY CRIMES. Public Servant refers to Law Enforcement, Government, and Doctors. Does not apply to Capital Murder.</p>
+
+    <p><span class="modifier">Modifier: Threat to Society</span><br>
+    Max Time: 3 Years<br>
+    Max Fine: None<br>
+    Definition: Those who commit ten or more violent felonies within a 28-day period may be classified as a "Threat to Society." This status adds three years (3 OOC days) to the overall sentence.</p>
+
+    <p><span class="modifier">Modifier: Public Nuisance Offender</span><br>
+    Max Time: 60 Days<br>
+    Max Fine: None<br>
+    Definition: Those who commit three or more public order arrests within a seven-day period may be considered a "Public Nuisance Offender." This status adds 60 days to the overall sentence.</p>
 </div>
 
 <script>

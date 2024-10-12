@@ -26,3 +26,12 @@ collections:
 sass:
   load_paths:
     - _sass
+
+# Enable sidebar
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+      sidebar:
+        nav: "main"

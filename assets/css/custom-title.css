@@ -1,6 +1,0 @@
-a.site-title {
-    font-size: 0.8rem !important;  /* Adjusted to make it smaller */
-    font-weight: bold !important;
-    text-transform: uppercase !important;
-    white-space: nowrap !important;  /* Ensures the text stays on one line */
-}

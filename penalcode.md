@@ -164,7 +164,7 @@ nav_order: 3
     <p><span class="non-criminal-infraction">Non-Criminal Infraction: Covering the Face</span><br>
     Max Time: None<br>
     Max Fine: $10<br>
-    Definition: No person shall wear any kind of mask, bandana, or facial covering within a town or city, except for those with bonafide medical documentation supporting a cause for such.</p>
+    Definition: No person shall wear any kind of mask, bandana or facial covering within a town or city, except for those with bonafide medical documentation supporting a cause for such.</p>
 
     <p><span class="non-criminal-infraction">Non-Criminal Infraction: Brandishing a Weapon</span><br>
     Max Time: None<br>

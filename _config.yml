@@ -2,5 +2,5 @@ remote_theme: just-the-docs/just-the-docs
 just_the_docs:
   additional_css:
     - assets/css/custom-title.css
-title: "Monroe Legal Resources"
+title: "MONROE LEGAL RESOURCES"
 description: "Legal resources for Ranch Roleplay"

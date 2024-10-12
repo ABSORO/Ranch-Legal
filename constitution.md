@@ -15,7 +15,7 @@ nav_order: 2
 
 <hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
 
-<h2 style="font-family: 'Georgia', serif; font-weight: bold; background-color: #f0f0f0; padding: 10px;">Chapter I - Declaration of Rights</h2>
+<h2 style="font-family: 'Georgia', serif; font-weight: bold; background-color: #bababa; padding: 10px;">Chapter I - Declaration of Rights</h2>
 
 <h3 style="font-family: 'Georgia', serif; font-weight: bold; background-color: #f0f0f0; padding: 10px;">Article I: Acknowledgment of Federal Supremacy</h3>
 
@@ -83,7 +83,7 @@ nav_order: 2
 
 <hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
 
-<h2 style="font-family: 'Georgia', serif; font-weight: bold; background-color: #f0f0f0; padding: 10px;">Chapter II - Government Organization</h2>
+<h2 style="font-family: 'Georgia', serif; font-weight: bold; background-color: #bababa; padding: 10px;">Chapter II - Government Organization</h2>
 
 <h3 style="font-family: 'Georgia', serif; font-weight: bold; background-color: #f0f0f0; padding: 10px;">Section I: On Government</h3>
 
@@ -143,7 +143,7 @@ nav_order: 2
 
 <hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
 
-<h2 style="font-family: 'Georgia', serif; font-weight: bold; background-color: #f0f0f0; padding: 10px;">Chapter III - Amendments to the Constitution</h2>
+<h2 style="font-family: 'Georgia', serif; font-weight: bold; background-color: #bababa; padding: 10px;">Chapter III - Amendments to the Constitution</h2>
 
 <p style="text-align: justify; max-width: 800px; margin: 0 auto;"><strong>Note</strong>: No amendments currently exist.</p>
 

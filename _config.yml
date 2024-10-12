@@ -1,16 +1,35 @@
-# Site settings
+remote_theme: mmistakes/minimal-mistakes@latest
+
+plugins:
+  - jekyll-include-cache
+
 title: "State of Monroe Legal System"
 description: "Official legal documents and resources for the State of Monroe."
-theme: just-the-docs
 
-# URL of your site (replace 'yourusername' with your GitHub username)
+# URL settings
 url: "https://absoro.github.io"
-baseurl: "" # Leave this empty unless your site is in a subdirectory
+baseurl: ""
 
-# Enable search functionality
-search_enabled: true
+# Author settings
+author:
+  name: "State of Monroe"
 
-# Exclude pages from search (if any)
-# exclude:
-#   - "path/to/page.md"
+# Theme settings
+theme: minimal-mistakes-jekyll
 
+# Navigation settings
+collections:
+  pages:
+    output: true
+
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Constitution"
+    url: "/constitution/"
+  - title: "Penal Code"
+    url: "/penal-code/"
+  - title: "Legal Procedures"
+    url: "/procedures/"
+  - title: "Resources"
+    url: "/resources/"

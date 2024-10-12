@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: custom
 title: Penal Code
 nav_order: 3
 ---

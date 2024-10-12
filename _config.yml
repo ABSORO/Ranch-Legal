@@ -1,10 +1,14 @@
-remote_theme: mmistakes/minimal-mistakes@latest
-
-plugins:
-  - jekyll-include-cache
-
 title: "State of Monroe Legal System"
 description: "Official legal documents and resources for the State of Monroe."
+
+# Use theme gem
+theme: minimal-mistakes-jekyll
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # URL settings
 url: "https://absoro.github.io"
@@ -13,9 +17,6 @@ baseurl: ""
 # Author settings
 author:
   name: "State of Monroe"
-
-# Theme settings
-theme: minimal-mistakes-jekyll
 
 # Navigation settings
 collections:

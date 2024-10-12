@@ -33,3 +33,31 @@
 </body>
 
 </html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch("header.html")
+            .then(response => response.text())
+            .then(data => {
+                const header = document.createElement("div");
+                header.innerHTML = data;
+                document.body.prepend(header);
+            });
+
+        fetch("sidebar.html")
+            .then(response => response.text())
+            .then(data => {
+                const sidebar = document.createElement("div");
+                sidebar.innerHTML = data;
+                document.body.prepend(sidebar);
+            });
+
+        fetch("footer.html")
+            .then(response => response.text())
+            .then(data => {
+                const footer = document.createElement("div");
+                footer.innerHTML = data;
+                document.body.appendChild(footer);
+            });
+    });
+</script>

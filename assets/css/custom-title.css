@@ -1,4 +1,4 @@
-.site-title {
+h1.site-title {
     font-size: 5rem !important;  /* Adjusted to make it smaller */
     font-weight: bold !important;
     text-transform: uppercase !important;

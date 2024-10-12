@@ -21,10 +21,15 @@ nav_order: 3
     }
 
     .panel {
-        padding: 0 18px;
-        display: none;
-        background-color: #f9f9f9;
+        max-height: 0;
         overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #f9f9f9;
+        padding-left: 18px;
+    }
+
+    .panel.open {
+        max-height: 500px; /* Adjust as needed to fit content */
     }
 
     .capital-felony {
@@ -196,20 +201,12 @@ nav_order: 3
 </div>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                    panel.style.display = "none";
-                } else {
-                    panel.style.display = "block";
-                }
-            });
-        }
-    });
+    var acc = document.getElementsByClassName("accordion");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            panel.classList.toggle("open");
+        });
+    }
 </script>

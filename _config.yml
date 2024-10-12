@@ -22,3 +22,7 @@ collections:
   pages:
     output: true
 
+# Include the custom stylesheet
+sass:
+  load_paths:
+    - _sass

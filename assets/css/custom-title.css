@@ -1,5 +1,5 @@
 .site-title {
-    font-size: 1rem !important; /* Adjust size */
+    font-size: .5rem !important; /* Adjust size */
     font-weight: bold !important; /* Make the text bold */
     text-transform: uppercase !important; /* Make all letters uppercase */
 }

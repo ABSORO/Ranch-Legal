@@ -2,5 +2,5 @@
     font-size: 1rem !important;  /* Adjusted to make it smaller */
     font-weight: bold !important;
     text-transform: uppercase !important;
-    white-space: nowrap;  /* Ensures the text stays on one line */
+    white-space: nowrap !important;  /* Ensures the text stays on one line */
 }

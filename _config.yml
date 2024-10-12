@@ -2,3 +2,6 @@ remote_theme: just-the-docs/just-the-docs
 just_the_docs:
 title: "Ranch Legal"
 description: "Legal resources for Ranch Roleplay"
+markdown: kramdown
+kramdown:
+  parse_block_html: true

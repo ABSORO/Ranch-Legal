@@ -1,3 +1,8 @@
+---
+title: "Penal Code"
+nav_order: 3
+---
+
 <style>
     .accordion {
         background-color: #e6f7ff;

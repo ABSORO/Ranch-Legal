@@ -58,6 +58,7 @@ nav_order: 3
         border: 1px solid #4d4d4d;
         padding: 15px;
         margin-bottom: 20px;
+        margin: 4px 0; /* Adjust the value to control the spacing between sentences */
         font-family: Arial, sans-serif;
     }
 </style>

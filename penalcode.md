@@ -2,22 +2,31 @@
 title: "Penal Code"
 nav_order: 3
 ---
-
 <style>
     .penal-code-table {
         width: 100%;
         border-collapse: collapse;
         margin-bottom: 20px;
+        font-family: Arial, sans-serif;
     }
 
     .penal-code-table th, .penal-code-table td {
-        border: 1px solid #ddd;
-        padding: 8px;
+        border: 1px solid #666;
+        padding: 12px;
+        text-align: left;
     }
 
     .penal-code-table th {
-        background-color: #f2f2f2;
-        text-align: left;
+        background-color: #4d4d4d;
+        color: #ffffff;
+    }
+
+    .category-header {
+        background-color: #333;
+        color: #ffffff;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px;
     }
 
     .capital-felony {
@@ -45,9 +54,9 @@ nav_order: 3
     }
 
     .important-note {
-        background-color: #ffffe0;
-        border: 1px solid #ddd;
-        padding: 10px;
+        background-color: #e6ffe6;
+        border: 1px solid #4d4d4d;
+        padding: 15px;
         margin-bottom: 20px;
         font-family: Arial, sans-serif;
     }
@@ -56,7 +65,7 @@ nav_order: 3
 <div class="important-note">
     <p><strong>Notes:</strong></p>
     <ul>
-        <li>HUT = Hold Until trial. A Judge shall sentence or give a trial based on the individual's plea.</li>
+        <li><strong>HUT = Hold Until trial:</strong> A Judge shall sentence or give a trial based on the individual's plea.</li>
         <li>Sentences may deviate if agreed by all parties involved for storytelling purposes.</li>
         <li>Lawmen are encouraged to adjust times and fines for circumstances to foster better roleplay experiences.</li>
         <li>Sentences of 401 days can transition to years (401 Days = 1 Year, etc.).</li>
@@ -74,7 +83,10 @@ nav_order: 3
         </tr>
     </thead>
     <tbody>
-        <!-- Capital Felonies -->
+        <!-- Capital Felonies Header -->
+        <tr>
+            <td colspan="5" class="category-header">Capital Felony Charges</td>
+        </tr>
         <tr class="capital-felony">
             <td>Capital Felony</td>
             <td>Capital Murder</td>
@@ -96,7 +108,10 @@ nav_order: 3
             <td>$300</td>
             <td>Any violent behavior or act committed within a Town, City, or Native Reservation, depriving citizens of Monroe of life on a mass scale or causing a reasonably expected outcome.</td>
         </tr>
-        <!-- State Felonies - First Degree -->
+        <!-- State Felonies - First Degree Header -->
+        <tr>
+            <td colspan="5" class="category-header">State Felony Charges - First Degree</td>
+        </tr>
         <tr class="state-felony-first-degree">
             <td>State Felony - First Degree</td>
             <td>1st Degree Murder</td>
@@ -111,7 +126,10 @@ nav_order: 3
             <td>$200</td>
             <td>No person shall attempt the act of unlawful killing of human beings with a premeditated design to effect the death of the person being attempted upon.</td>
         </tr>
-        <!-- State Felonies - Second Degree -->
+        <!-- State Felonies - Second Degree Header -->
+        <tr>
+            <td colspan="5" class="category-header">State Felony Charges - Second Degree</td>
+        </tr>
         <tr class="state-felony-second-degree">
             <td>State Felony - Second Degree</td>
             <td>2nd Degree Murder</td>
@@ -126,7 +144,10 @@ nav_order: 3
             <td>$100</td>
             <td>Unintentionally causing the death of an individual through an act that was neither excusable nor justified without malicious aforethought.</td>
         </tr>
-        <!-- Misdemeanors -->
+        <!-- Misdemeanors Header -->
+        <tr>
+            <td colspan="5" class="category-header">Misdemeanors</td>
+        </tr>
         <tr class="misdemeanor">
             <td>Misdemeanor</td>
             <td>Battery</td>
@@ -141,7 +162,10 @@ nav_order: 3
             <td>$50</td>
             <td>Deliberately causing another to believe they hold a position of a public servant in any capacity.</td>
         </tr>
-        <!-- Non-Criminal Infractions -->
+        <!-- Non-Criminal Infractions Header -->
+        <tr>
+            <td colspan="5" class="category-header">Non-Criminal Infractions</td>
+        </tr>
         <tr class="non-criminal-infraction">
             <td>Non-Criminal Infraction</td>
             <td>Excessive Speeds</td>
@@ -156,7 +180,10 @@ nav_order: 3
             <td>$10</td>
             <td>No person shall, without lawful reason, wave or flourish a weapon as a threat, in anger, or in excitement.</td>
         </tr>
-        <!-- Modifiers -->
+        <!-- Modifiers Header -->
+        <tr>
+            <td colspan="5" class="category-header">Modifiers</td>
+        </tr>
         <tr class="modifier">
             <td>Modifier</td>
             <td>Aiding and Abetting</td>

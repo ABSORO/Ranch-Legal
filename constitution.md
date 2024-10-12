@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: custom
 title: Constitution
 nav_order: 2
 ---

@@ -63,7 +63,7 @@ nav_order: 3
 </style>
 
 <div class="important-note">
-    <p><strong>Notes:</strong></p>
+    <strong>Notes:</strong>
     <ul>
         <li><strong>HUT = Hold Until trial:</strong> A Judge shall sentence or give a trial based on the individual's plea.</li>
         <li>Sentences may deviate if agreed by all parties involved for storytelling purposes.</li>

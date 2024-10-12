@@ -1,0 +1,29 @@
+---
+layout: default
+title: Penal Code
+nav_order: 3
+---
+
+# State of Monroe Penal Code (Established 1899)
+
+## Notes
+
+- **HUT (Hold Until Trial):** This means that a Judge shall sentence or give them a trial depending on the individual's entered plea.
+- **Maximum Overall Time:** 7 Years (7 OOC Days)
+- **Maximum Overall Fine:** $300
+- [Include other notes as necessary.]
+
+---
+
+## Capital Felony Charges
+
+### P.C. 1101 - Capital Murder
+
+**Max Time:** HUT  
+**Max Fine:** N/A
+
+**Definition:** Any person who uses any heinous, atrocious, or cruel act manifesting exceptional depravity in the commission of murder in the first or second degree. Any person who deliberately and with premeditation takes the life of a law enforcement official, government official, or medical official, in the commission of their duty, or any witness in a legal proceeding.
+
+**Notes:** Not to be used for typical gunfights or ambushes. There should be real RP behind the incident to show true premeditation.
+
+[Continue adding charges in the same format.]

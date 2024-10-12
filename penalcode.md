@@ -20,17 +20,17 @@ nav_order: 3
 <p style="text-align: justify; max-width: 800px; margin: 0 auto;">Definition: Any person who knowingly and willingly consumes human flesh, or who coerces another person to eat human flesh through deception, threats, or force.</p>
 
 <h3 style="font-family: 'Georgia', serif; font-weight: bold; background-color: #f0f0f0; padding: 10px;">P.C. 1103 - Mayhem</h3>
-<p style="text-align: justify; max-width: 800px; margin: 0 auto;">Max Time: 1 Year &nbsp; | &nbsp; Max Fine: $300</p>
+<p style="text-align: justify; max-width: 800px; margin: 0 auto;">Max Time: 2-3 Year(s) &nbsp; | &nbsp; Max Fine: $300</p>
 <p style="text-align: justify; max-width: 800px; margin: 0 auto;">Definition: Any violent behavior or act committed within the confines of a Town, City, or Native Reservation that deprives citizens of Monroe of life on a mass scale or an act that could be reasonably expected to have caused such an outcome. Examples include throwing dynamite in the middle of town or acts of intentional violence against the general citizenry of the town, not a specific group.</p>
 <p style="text-align: justify; max-width: 800px; margin: 0 auto;"><strong>Note</strong>: This charge must be authorized by the Chief Justice, Sheriff, Undersheriff of the Monroe Sheriff's Office, or the Chief Marshal of the State of Monroe.</p>
 
 <h3 style="font-family: 'Georgia', serif; font-weight: bold; background-color: #f0f0f0; padding: 10px;">P.C. 1104 - Insurrection</h3>
-<p style="text-align: justify; max-width: 800px; margin: 0 auto;">Max Time: 3 Years &nbsp; | &nbsp; Max Fine: $300</p>
+<p style="text-align: justify; max-width: 800px; margin: 0 auto;">Max Time: 7 Years &nbsp; | &nbsp; Max Fine: $300</p>
 <p style="text-align: justify; max-width: 800px; margin: 0 auto;">Definition: Any attempt at a violent uprising against the government of the State of Monroe or the United States of America.</p>
 <p style="text-align: justify; max-width: 800px; margin: 0 auto;"><strong>Note</strong>: This charge must be authorized by the Chief Justice, Sheriff, Undersheriff of the Monroe Sheriff's Office, or the Chief Marshal of the State of Monroe.</p>
 
 <h3 style="font-family: 'Georgia', serif; font-weight: bold; background-color: #f0f0f0; padding: 10px;">P.C. 1105 - Torture</h3>
-<p style="text-align: justify; max-width: 800px; margin: 0 auto;">Max Time: 7 Years &nbsp; | &nbsp; Max Fine: N/A</p>
+<p style="text-align: justify; max-width: 800px; margin: 0 auto;">Max Time: 3 Years &nbsp; | &nbsp; Max Fine: N/A</p>
 <p style="text-align: justify; max-width: 800px; margin: 0 auto;">Definition: No person shall act with intent or willful negligence to inflict severe physical or mental pain or suffering upon another person within his custody or physical control without a lawful reason to do so. No person shall engage in behavior designed or intended to deprive a citizen of Monroe of their bodily functions or appendages in a malicious manner, including the rending useless of the aforementioned.</p>
 <p style="text-align: justify; max-width: 800px; margin: 0 auto;"><strong>Note</strong>: This is the maximum penalty for severe instances of torture. The extent of the torture should be considered, and time adjusted accordingly. Body part loss = Max Time.</p>
 
@@ -49,4 +49,3 @@ nav_order: 3
 <p style="text-align: justify; max-width: 800px; margin: 0 auto;"><strong>Note</strong>: For anything not provable as premeditated, use Aggravated Battery. Not to be used for typical gunfights or ambushes. There should be real roleplay behind the premeditation and attempt to kill.</p>
 
 </div>
-

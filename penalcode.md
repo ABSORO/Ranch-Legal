@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Penal Code"
 nav_order: 3
 ---
 

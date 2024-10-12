@@ -1,3 +1,8 @@
+---
+title: "Penal Code"
+nav_order: 3
+---
+
 <h2>Penal Code Categories</h2>
 
 <details>

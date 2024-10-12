@@ -1,8 +1,17 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+# Site settings
+title: "State of Monroe Legal System"
+description: "Official legal documents and resources for the State of Monroe."
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+# URL of your site (replace 'yourusername' with your GitHub username)
+url: "https://absoro.github.io"
+baseurl: "" # Leave this empty unless your site is in a subdirectory
 
+# Enable search functionality
+search_enabled: true
+
+# Navigation links in the top right corner
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Home:
+    url: "/"
+    external: false

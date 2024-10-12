@@ -72,8 +72,7 @@ nav_order: 3
 <p>• If caught blatantly comitting a crime, not guilty verdicts will not be entertained.</p>					
 <p>• Starting at 401 Days, sentences can transition to Years (OOC Days). 401 Days = 1 Year, 501 Days = 2 Years, 601 Days = 3 Years...  (1 OOC Day = 1440 Minutes) However if a time is already in years don't apply this to it. (i.e. 1 Year = 1440 Days ≠ 10 Years)</p>					
 <p>• Persons may plea Not Guilty to 1st Degree Felonies or Higher as well as any individual charges with a stated time of 1 Year or Higher. Anything else shall be appeal after the fact or handled by a Judge on scene.</p>				
-<p><div text-align: center;>MAX OVERALL TIME -  7 Years (7 OOC Days)                           MAX OVERALL FINE - $300</p>				
-</div>
+<p><div text-align: center;><strong>MAX OVERALL TIME -  7 Years (7 OOC Days)                           MAX OVERALL FINE - $300</strong></div></p>
 </div>
 <table class="penal-code-table">
     <thead>

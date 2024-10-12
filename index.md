@@ -33,8 +33,3 @@ If you have any questions or need assistance, reach out to the appropriate in-ch
 
 [Join the Ranch Roleplay Community on Discord](https://discord.com/invite/Sc3Ur4Uxpp)
 
----
-
-This content clearly communicates the purpose of the site, the importance of using official documents, and helps guide community members through the different resources available. It also includes helpful links for engagement, making it informative and welcoming.
-
-Let me know if this captures your goals, or if there’s anything else you’d like to add!

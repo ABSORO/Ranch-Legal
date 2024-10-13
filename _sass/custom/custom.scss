@@ -114,34 +114,37 @@ table {
 
 // Styles for the important note section
 .main-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
-
   h2 {
     text-align: center;
     margin-bottom: 20px;
   }
 
-  ul {
-    background-color: #e6ffe6;
-    border: 1px solid #4d4d4d;
-    border-radius: 5px;
-    padding: 15px 15px 15px 35px;
-    margin-bottom: 20px;
-    font-family: Arial, sans-serif;
-    list-style-type: none;
+  // Styles for the Notes section
+  .notes-section {
+    max-width: 800px;
+    margin: 0 auto 20px;
 
-    li {
-      margin-bottom: 10px;
-      padding: 5px;
+    ul {
+      background-color: #e6ffe6;
+      border: 1px solid #4d4d4d;
+      border-radius: 5px;
+      padding: 15px 15px 15px 35px;
+      margin-bottom: 20px;
+      font-family: Arial, sans-serif;
+      list-style-type: none;
 
-      &:nth-child(even) {
-        background-color: #c1ffc1;
+      li {
+        margin-bottom: 10px;
+        padding: 5px;
+
+        &:nth-child(even) {
+          background-color: #c1ffc1;
+        }
       }
     }
   }
 
+  // Styles for the MAX OVERALL TIME/FINE box
   .max-sentence {
     text-align: center;
     font-weight: bold;
@@ -149,6 +152,34 @@ table {
     padding: 10px;
     border: 1px solid #4d4d4d;
     border-radius: 5px;
-    margin-top: 15px;
+    margin: 15px auto;
+    max-width: 800px;
+  }
+
+  // Styles for the penal code table
+  .penal-code-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+
+    th, td {
+      border: 1px solid #666;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #4d4d4d;
+      color: #ffffff;
+    }
+
+    // Add your existing color classes here
+    .capital-felony { background-color: #ff738a; }
+    .state-felony-first-degree { background-color: #ff9d36; }
+    .state-felony-second-degree { background-color: #ffbd78; }
+    .misdemeanor { background-color: #ffffcc; }
+    .non-criminal-infraction { background-color: #e6ffe6; }
+    .modifier { background-color: #cce6ff; }
   }
 }

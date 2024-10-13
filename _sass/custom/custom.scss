@@ -14,12 +14,12 @@
 @media (min-width: 66.5rem) {
     .side-bar {
         width: 248px !important;
-        left: calc((100% - 1264px) / 2) !important; /* Increased from 1064px to 1264px */
+        left: 2rem !important;
     }
 
     .main {
-        margin-left: calc((100% - 1264px) / 2 + 268px) !important;
-        max-width: 996px !important; /* Increased from 796px to 996px */
+        margin-left: calc(248px + 4rem) !important;
+        max-width: calc(100% - 248px - 8rem) !important;
     }
 }
 
@@ -29,15 +29,37 @@
     }
 }
 
+@media (max-width: 50rem) {
+    .side-bar {
+        width: 100% !important;
+        position: relative !important;
+    }
+
+    .main {
+        margin-left: 0 !important;
+        max-width: 100% !important;
+    }
+}
+
 /* Additional styles to improve readability */
 p, li {
-    max-width: 80ch !important; /* Limits line length for better readability */
-    line-height: 1.6 !important; /* Increases line spacing */
+    max-width: 80ch !important;
+    line-height: 1.6 !important;
 }
 
 table {
     width: 100% !important;
     max-width: none !important;
     display: block !important;
-    overflow-x: auto !important; /* Allows tables to scroll horizontally on small screens */
+    overflow-x: auto !important;
+}
+
+.penal-code-table {
+    font-size: 14px !important;
+}
+
+@media (max-width: 768px) {
+    .penal-code-table {
+        font-size: 12px !important;
+    }
 }

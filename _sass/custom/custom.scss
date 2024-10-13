@@ -135,14 +135,8 @@ table {
 
       li {
         margin: 0;
-        padding: 10px 15px 10px 35px; // Increased left padding for bullet points
-        position: relative; // For custom bullet points
-
-        &:before {
-          content: "•"; // Custom bullet point
-          position: absolute;
-          left: 15px;
-        }
+        padding: 10px 15px; // Reduced padding
+        position: relative;
 
         &:nth-child(even) {
           background-color: #c1ffc1;
@@ -161,7 +155,6 @@ table {
     }
   }
 }
-
 
   // Styles for the MAX OVERALL TIME/FINE box
   .max-sentence {

@@ -114,7 +114,7 @@ However if a time is already in years don't apply this to it. (i.e. 1 Year = 144
         </tr>
         <!-- State Felonies - First Degree Header -->
         <tr>
-            <td colspan="5" class="category-header">State Felony Charges - First Degree</td>
+            <td colspan="5" class="state-felony-first-degree "><strong>State Felony Charges - First Degree</strong></td>
         </tr>
         <tr class="state-felony-first-degree">
             <td>State Felony - First Degree</td>
@@ -132,7 +132,7 @@ However if a time is already in years don't apply this to it. (i.e. 1 Year = 144
         </tr>
         <!-- State Felonies - Second Degree Header -->
         <tr>
-            <td colspan="5" class="category-header">State Felony Charges - Second Degree</td>
+            <td colspan="5" class="state-felony-second-degree"><strong>State Felony Charges - Second Degree</strong></td>
         </tr>
         <tr class="state-felony-second-degree">
             <td>State Felony - Second Degree</td>
@@ -150,7 +150,7 @@ However if a time is already in years don't apply this to it. (i.e. 1 Year = 144
         </tr>
         <!-- Misdemeanors Header -->
         <tr>
-            <td colspan="5" class="category-header">Misdemeanors</td>
+            <td colspan="5" class="misdemeanor"><strong>Misdemeanors</strong></td>
         </tr>
         <tr class="misdemeanor">
             <td>Misdemeanor</td>
@@ -168,7 +168,7 @@ However if a time is already in years don't apply this to it. (i.e. 1 Year = 144
         </tr>
         <!-- Non-Criminal Infractions Header -->
         <tr>
-            <td colspan="5" class="category-header">Non-Criminal Infractions</td>
+            <td colspan="5" class="non-criminal-infraction"><strong>Non-Criminal Infractions</strong></td>
         </tr>
         <tr class="non-criminal-infraction">
             <td>Non-Criminal Infraction</td>

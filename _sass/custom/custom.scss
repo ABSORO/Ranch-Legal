@@ -11,17 +11,18 @@
   border: 1px solid #4d4d4d;
   border-radius: 5px;
   overflow: hidden;
-  margin: 5 auto 20px;
-  max-width: 1500px !important; // Increased from 800px to 1000px
+  margin: 0 auto 20px;
+  max-width: 1000px !important;
   background-color: #c1ffc1;
+  font-size: 0.9em; // Reduced overall font size
 
   h2 {
     text-align: center;
     margin: 0;
-    padding: 15px;
+    padding: 12px;
     background-color: #c1ffc1;
     border-bottom: 1px solid #4d4d4d;
-    font-size: 1.5em; // Slightly larger font for the header
+    font-size: 1.3em; // Adjusted header size relative to new base font size
   }
 
   ul {
@@ -32,13 +33,12 @@
   }
 
   li {
-    padding: 12px 20px 12px 35px; // Adjusted padding
+    padding: 10px 15px 10px 25px; // Reduced left padding to bring text closer to bullet
     margin: 0;
     border-bottom: 1px solid #4d4d4d;
     width: 100% !important;
     box-sizing: border-box !important;
     position: relative;
-    font-size: 0.95em; // Slightly smaller font for better fit
 
     &:nth-child(odd) {
       background-color: #e6ffe6;
@@ -51,8 +51,8 @@
     &::before {
       content: "-";
       position: absolute;
-      left: 20px;
-      top: 12px;
+      left: 10px; // Moved bullet point closer to text
+      top: 10px;
     }
 
     > * {

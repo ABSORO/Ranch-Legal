@@ -92,21 +92,21 @@ However if a time is already in years don't apply this to it. (i.e. 1 Year = 144
             <td colspan="5" class="capital-felony"><strong>Capital Felony Charges</strong></td>
         </tr>
         <tr class="capital-felony">
-            <td>Capital Felony</td>
+            <td>P.C. 1101</td>
             <td>Capital Murder</td>
             <td>HUT</td>
             <td>None</td>
             <td>Any person who uses any heinous, atrocious, or cruel act manifesting exceptional depravity in the commission of murder in the first or second degree.</td>
         </tr>
         <tr class="capital-felony">
-            <td>Capital Felony</td>
+            <td>P.C. 1102</td>
             <td>Cannibalism</td>
             <td>HUT</td>
             <td>None</td>
             <td>Any person who knowingly and willingly consumes human flesh, or who coerces another person to eat human flesh through deception, threats, or force.</td>
         </tr>
         <tr class="capital-felony">
-            <td>Capital Felony</td>
+            <td>P.C. 1103</td>
             <td>Mayhem</td>
             <td>2-3 Years</td>
             <td>$300</td>
@@ -117,14 +117,14 @@ However if a time is already in years don't apply this to it. (i.e. 1 Year = 144
             <td colspan="5" class="state-felony-first-degree "><strong>State Felony Charges - First Degree</strong></td>
         </tr>
         <tr class="state-felony-first-degree">
-            <td>State Felony - First Degree</td>
+            <td>P.C. 2101</td>
             <td>1st Degree Murder</td>
             <td>HUT</td>
             <td>None</td>
             <td>No person shall act in the unlawful killing of human beings with a premeditated design to effect the death of the person killed.</td>
         </tr>
         <tr class="state-felony-first-degree">
-            <td>State Felony - First Degree</td>
+            <td>P.C. 2102</td>
             <td>Attempted 1st Degree Murder</td>
             <td>1 Year</td>
             <td>$200</td>
@@ -135,14 +135,14 @@ However if a time is already in years don't apply this to it. (i.e. 1 Year = 144
             <td colspan="5" class="state-felony-second-degree"><strong>State Felony Charges - Second Degree</strong></td>
         </tr>
         <tr class="state-felony-second-degree">
-            <td>State Felony - Second Degree</td>
+            <td>P.C. 2201</td>
             <td>2nd Degree Murder</td>
             <td>5 Years</td>
             <td>None</td>
             <td>No person shall act in the unlawful killing of human beings without premeditated design.</td>
         </tr>
         <tr class="state-felony-second-degree">
-            <td>State Felony - Second Degree</td>
+            <td>P.C. 2202</td>
             <td>Manslaughter</td>
             <td>1 Year</td>
             <td>$100</td>

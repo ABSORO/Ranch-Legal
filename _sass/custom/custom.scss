@@ -28,28 +28,35 @@
     padding: 0;
     margin: 0;
     width: 100% !important;
+  }
 
-    li {
-      padding: 15px;
-      margin: 0;
-      border-bottom: 1px solid #4d4d4d;
+  li {
+    padding: 15px;
+    margin: 0;
+    border-bottom: 1px solid #4d4d4d;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    display: block; // Ensure it's displayed as a block
+    text-indent: 0; // Remove any text indentation
+
+    &:nth-child(odd) {
+      background-color: #e6ffe6; // Lighter shade for odd items
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    // Remove any potential bullet-like styling
+    &::before {
+      content: none;
+    }
+
+    // Force content inside list items to full width
+    > * {
       width: 100% !important;
-      box-sizing: border-box !important;
-
-      &:nth-child(odd) {
-        background-color: #e6ffe6; // Lighter shade for odd items
-      }
-
-      &:last-child {
-        border-bottom: none;
-      }
-
-      // Force content inside list items to full width
-      > * {
-        width: 100% !important;
-        max-width: none !important;
-        display: inline-block !important;
-      }
+      max-width: none !important;
+      display: inline-block !important;
     }
   }
 }

@@ -1,3 +1,4 @@
+// Existing styles for layout
 .side-bar {
     width: 248px !important;
     position: fixed !important;
@@ -5,7 +6,7 @@
 }
 
 .main {
-    margin-left: 268px !important; /* 248px sidebar + 20px margin */
+    margin-left: 268px !important;
     max-width: calc(100% - 288px) !important;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
@@ -41,7 +42,7 @@
     }
 }
 
-/* Additional styles to improve readability */
+// Additional styles for readability
 p, li {
     max-width: 80ch !important;
     line-height: 1.6 !important;
@@ -54,8 +55,56 @@ table {
     overflow-x: auto !important;
 }
 
+// Styles for the penal code table
 .penal-code-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
     font-size: 14px !important;
+}
+
+.penal-code-table th, .penal-code-table td {
+    border: 1px solid #666;
+    padding: 12px;
+    text-align: left;
+}
+
+.penal-code-table th {
+    background-color: #4d4d4d;
+    color: #ffffff;
+}
+
+.category-header {
+    background-color: #333;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+.capital-felony {
+    background-color: #ff738a;
+}
+
+.state-felony-first-degree {
+    background-color: #ff9d36;
+}
+
+.state-felony-second-degree {
+    background-color: #ffbd78;
+}
+
+.misdemeanor {
+    background-color: #ffffcc;
+}
+
+.non-criminal-infraction {
+    background-color: #e6ffe6;
+}
+
+.modifier {
+    background-color: #cce6ff;
 }
 
 @media (max-width: 768px) {
@@ -64,6 +113,7 @@ table {
     }
 }
 
+// Styles for the important note section
 .important-note {
     background-color: #e6ffe6;
     border: 1px solid #4d4d4d;
@@ -90,4 +140,13 @@ table {
     text-align: center;
     font-weight: bold;
     margin-top: 15px;
+}
+
+// Additional styles for the important note paragraphs
+.important-note p {
+    margin: 5px 0;
+}
+
+.important-note p:nth-child(even) {
+    background-color: #d6ffd6;
 }

@@ -53,28 +53,51 @@ nav_order: 3
         background-color: #cce6ff;
     }
 
-    .important-note {
-        background-color: #e6ffe6;
-        border: 1px solid #4d4d4d;
-        padding: 5px;
-        margin: 5px 0; /* Adjust the value to control the spacing between sentences */
-        font-family: Arial, sans-serif;
-    }
+.important-note {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.important-note h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.important-note ul {
+    padding-left: 20px;
+}
+
+.important-note li {
+    margin-bottom: 5px;
+}
+
+.max-sentence {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
 </style>
 
 <div class="important-note">
-<p style="text-align: center;"><strong><u>Notes</u></strong></p>
-<p style="background-color: #d6ffd6;">• HUT = Hold Until trial, this means that a Judge shall sentence or give them a trial depending on the individuals entered plea.</p>				
-<p>• If a trial is required, open an LFM ticket.</p>				
-<p style="background-color: #d6ffd6;">• When Judges are in town, a person may plea to all charges listed and the Judge will handle all sentencing or fine assignment related to any case.</p>	
-<p>• Judges may deviate from sentences listed here but MUST respect the drive for story and must never CK or sentence to life without explicit Admin approval or consent from the opposing players.</p>			
-<p style="background-color: #d6ffd6;">• While lawmen should feel comfortable charging criminals with the listed times and fines, they are also encouraged to lower them if the circumstances call for it. Use your judgement and help foster good storytelling so that both sides enjoy the encounters.</p>		
-<p>• If caught blatantly comitting a crime, not guilty verdicts will not be entertained.</p>
-<p style="background-color: #d6ffd6;">• Starting at 401 Days, sentences can transition to Years (OOC Days).
-401 Days = 1 Year, 501 Days = 2 Years, 601 Days = 3 Years...(1 OOC Day = 1440 Minutes)
-However if a time is already in years don't apply this to it. (i.e. 1 Year = 1440 Days ≠ 10 Years)</p>
-<p>• Persons may plea Not Guilty to 1st Degree Felonies or Higher as well as any individual charges with a stated time of 1 Year or Higher. Anything else shall be appeal after the fact or handled by a Judge on scene.<br></p>		
-<p style="text-align: center; background-color: #d6ffd6;"><strong>MAX OVERALL TIME -  7 Years (7 OOC Days)                           MAX OVERALL FINE - $300</strong></p>
+    <h3>Notes</h3>
+    <ul>
+        <li>HUT = Hold Until trial, this means that a Judge shall sentence or give them a trial depending on the individuals entered plea.</li>
+        <li>If a trial is required, open an LFM ticket.</li>
+        <li>When Judges are in town, a person may plea to all charges listed and the Judge will handle all sentencing or fine assignment related to any case.</li>
+        <li>Judges may deviate from sentences listed here but MUST respect the drive for story and must never CK or sentence to life without explicit Admin approval or consent from the opposing players.</li>
+        <li>While lawmen should feel comfortable charging criminals with the listed times and fines, they are also encouraged to lower them if the circumstances call for it. Use your judgement and help foster good storytelling so that both sides enjoy the encounters.</li>
+        <li>If caught blatantly comitting a crime, not guilty verdicts will not be entertained.</li>
+        <li>Starting at 401 Days, sentences can transition to Years (OOC Days).
+            401 Days = 1 Year, 501 Days = 2 Years, 601 Days = 3 Years...(1 OOC Day = 1440 Minutes)
+            However if a time is already in years don't apply this to it. (i.e. 1 Year = 1440 Days ≠ 10 Years)</li>
+        <li>Persons may plea Not Guilty to 1st Degree Felonies or Higher as well as any individual charges with a stated time of 1 Year or Higher. Anything else shall be appeal after the fact or handled by a Judge on scene.</li>
+    </ul>
+    <p class="max-sentence">MAX OVERALL TIME -  7 Years (7 OOC Days)                           MAX OVERALL FINE - $300</p>
 </div>
 <table class="penal-code-table">
     <thead>

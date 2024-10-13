@@ -2,7 +2,6 @@
 title: "Penal Code"
 nav_order: 3
 ---
-
 <div class="important-note">
 <h3>Notes</h3>
 <ul>

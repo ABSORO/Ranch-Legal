@@ -43,8 +43,12 @@
 }
 
 // Additional styles for readability
-p, li {
+p {
     max-width: 80ch !important;
+    line-height: 1.6 !important;
+}
+
+li {
     line-height: 1.6 !important;
 }
 
@@ -172,10 +176,11 @@ table {
 }
 
 .notes-section ul li {
-  width: 100% !important;
-  max-width: 100% !important;
-  box-sizing: border-box !important;
-  display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    box-sizing: border-box !important;
+    display: block !important;
+    padding: 10px 15px !important;
 }
 
   // Styles for the penal code table
@@ -211,4 +216,9 @@ table {
   display: block !important;
   width: 100% !important;
   box-sizing: border-box !important;
+}
+
+.notes-section ul li * {
+    max-width: none !important;
+    width: 100% !important;
 }

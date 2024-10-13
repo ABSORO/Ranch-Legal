@@ -6,14 +6,14 @@ nav_order: 3
 <div class="notes-section" markdown="1">
 ## Notes
 
-HUT = Hold Until trial, this means that a Judge shall sentence or give them a trial depending on the individuals entered plea.
-If a trial is required, open an LFM ticket.
-When Judges are in town, a person may plea to all charges listed and the Judge will handle all sentencing or fine assignment related to any case.
-Judges may deviate from sentences listed here but MUST respect the drive for story and must never CK or sentence to life without explicit Admin approval or consent from the opposing players.
-While lawmen should feel comfortable charging criminals with the listed times and fines, they are also encouraged to lower them if the circumstances call for it. Use your judgement and help foster good storytelling so that both sides enjoy the encounters.
-If caught blatantly comitting a crime, not guilty verdicts will not be entertained.
-Starting at 401 Days, sentences can transition to Years (OOC Days). 401 Days = 1 Year, 501 Days = 2 Years, 601 Days = 3 Years... (1 OOC Day = 1440 Minutes) However if a time is already in years don't apply this to it. (i.e. 1 Year = 1440 Days ≠ 10 Years)
-Persons may plea Not Guilty to 1st Degree Felonies or Higher as well as any individual charges with a stated time of 1 Year or Higher. Anything else shall be appeal after the fact or handled by a Judge on scene.
+- HUT = Hold Until trial, this means that a Judge shall sentence or give them a trial depending on the individuals entered plea.
+- If a trial is required, open an LFM ticket.
+- When Judges are in town, a person may plea to all charges listed and the Judge will handle all sentencing or fine assignment related to any case.
+- Judges may deviate from sentences listed here but MUST respect the drive for story and must never CK or sentence to life without explicit Admin approval or consent from the opposing players.
+- While lawmen should feel comfortable charging criminals with the listed times and fines, they are also encouraged to lower them if the circumstances call for it. Use your judgement and help foster good storytelling so that both sides enjoy the encounters.
+- If caught blatantly comitting a crime, not guilty verdicts will not be entertained.
+- Starting at 401 Days, sentences can transition to Years (OOC Days). 401 Days = 1 Year, 501 Days = 2 Years, 601 Days = 3 Years... (1 OOC Day = 1440 Minutes) However if a time is already in years don't apply this to it. (i.e. 1 Year = 1440 Days ≠ 10 Years)
+- Persons may plea Not Guilty to 1st Degree Felonies or Higher as well as any individual charges with a stated time of 1 Year or Higher. Anything else shall be appeal after the fact or handled by a Judge on scene.
 </div> 
 
 <div class="max-sentence">

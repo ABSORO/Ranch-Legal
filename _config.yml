@@ -5,3 +5,5 @@ description: "Legal resources for Ranch Roleplay"
 markdown: kramdown
 kramdown:
   parse_block_html: true
+sass:
+  sass_dir: _sass

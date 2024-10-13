@@ -115,57 +115,67 @@ table {
 // Styles for the important note section
 .main-content {
   .notes-section {
-    max-width: 800px;
-    margin: 0 auto 20px;
+    max-width: 800px !important;
+    margin: 0 auto 20px !important;
 
     h2 {
-      text-align: center;
-      margin-bottom: 20px;
+      text-align: center !important;
+      margin-bottom: 20px !important;
     }
 
     ul {
-      background-color: #e6ffe6;
-      border: 1px solid #4d4d4d;
-      border-radius: 5px;
-      padding: 0;
-      margin: 0;
-      font-family: Arial, sans-serif;
-      list-style-type: none;
+      background-color: #e6ffe6 !important;
+      border: 1px solid #4d4d4d !important;
+      border-radius: 5px !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      font-family: Arial, sans-serif !important;
+      list-style-type: none !important;
+      overflow: hidden !important; // This ensures the border-radius is visible
 
       li {
-        margin: 0;
+        margin: 0 !important;
         padding: 10px !important;
         width: 100% !important;
-        box-sizing: border-box;
-        word-break: break-word;
+        box-sizing: border-box !important;
+        word-break: break-word !important;
+        display: block !important;
 
         &:nth-child(even) {
-          background-color: #c1ffc1;
+          background-color: #c1ffc1 !important;
         }
 
         &:first-child {
-          border-top-left-radius: 5px;
-          border-top-right-radius: 5px;
+          border-top-left-radius: 5px !important;
+          border-top-right-radius: 5px !important;
         }
 
         &:last-child {
-          border-bottom-left-radius: 5px;
-          border-bottom-right-radius: 5px;
+          border-bottom-left-radius: 5px !important;
+          border-bottom-right-radius: 5px !important;
         }
       }
     }
   }
 
   .max-sentence {
-    text-align: center;
-    font-weight: bold;
-    background-color: #c1ffc1;
-    padding: 10px;
-    border: 1px solid #4d4d4d;
-    border-radius: 5px;
-    margin: 15px auto;
-    max-width: 800px;
+    text-align: center !important;
+    font-weight: bold !important;
+    background-color: #c1ffc1 !important;
+    padding: 10px !important;
+    border: 1px solid #4d4d4d !important;
+    border-radius: 5px !important;
+    margin: 15px auto !important;
+    max-width: 800px !important;
+    box-sizing: border-box !important;
   }
+}
+
+// Additional override to ensure full width
+.notes-section ul li {
+  width: calc(100% + 2px) !important;
+  margin-left: -1px !important;
+  margin-right: -1px !important;
 }
 
   // Styles for the penal code table

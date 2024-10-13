@@ -113,6 +113,7 @@ table {
 }
 
 // Styles for the important note section
+
 .main-content {
   .notes-section {
     max-width: 800px;
@@ -132,7 +133,7 @@ table {
       margin: 0;
 
       li {
-        padding: 10px;
+        padding: 10px 15px;
         margin: 0;
         border-bottom: 1px solid #4d4d4d;
 
@@ -163,11 +164,18 @@ table {
   }
 }
 
-// Additional override to ensure full width
+// Override any potential conflicting styles
+.notes-section ul {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
 .notes-section ul li {
-  width: calc(100% + 2px) !important;
-  margin-left: -1px !important;
-  margin-right: -1px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  display: block !important;
 }
 
   // Styles for the penal code table

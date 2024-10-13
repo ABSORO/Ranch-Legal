@@ -5,7 +5,7 @@ nav_order: 1
 
 ## State of Monroe Legal Resources
 
-Welcome to the official resource hub for all things related to Ranch Roleplay's State of Monroe legal system. This site is designed for everyone involved in the roleplay community, including:
+Welcome to the unofficial resource hub for all things related to Ranch Roleplay's State of Monroe legal system. This site is designed for everyone involved in the roleplay community, including:
 
 - Lawmen
 - Judges

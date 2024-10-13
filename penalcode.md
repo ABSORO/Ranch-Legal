@@ -30,7 +30,7 @@ nav_order: 3
     }
 
     .capital-felony {
-        background-color: #ff3657;
+        background-color: #ff738a;
     }
 
     .state-felony-first-degree {

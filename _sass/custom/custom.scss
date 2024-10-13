@@ -1,11 +1,21 @@
-.main-content {
-  width: 90% !important;
-  max-width: 1400px !important;
-  margin: 0 auto !important;
+.side-bar {
+  width: 248px !important;
 }
 
 .main {
-  width: 90%;
-  max-width: 1400px;
-  margin: 0 auto;
+  margin-left: 248px !important;
+  max-width: calc(100% - 248px) !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: calc((100% - 1064px) / 2 + 264px) !important;
+  }
+
+  .main {
+    margin-left: calc((100% - 1064px) / 2 + 264px) !important;
+    max-width: calc(100% - ((100% - 1064px) / 2 + 264px)) !important;
+  }
 }

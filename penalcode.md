@@ -63,7 +63,7 @@ nav_order: 3
 </style>
 
 <div class="important-note">
-<strong>Notes:</strong>
+<p style="text-align: center;"><strong>Notes:</strong></p>
 <p style="background-color: #d6ffd6;">• HUT = Hold Until trial, this means that a Judge shall sentence or give them a trial depending on the individuals entered plea.</p>				
 <p>• If a trial is required, open an LFM ticket.</p>				
 <p style="background-color: #d6ffd6;">• When Judges are in town, a person may plea to all charges listed and the Judge will handle all sentencing or fine assignment related to any case.</p>	

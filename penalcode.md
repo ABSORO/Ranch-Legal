@@ -97,6 +97,7 @@ However if a time is already in years don't apply this to it. (i.e. 1 Year = 144
             <td>HUT</td>
             <td>None</td>
             <td>Any person who uses any heinous, atrocious, or cruel act manifesting exceptional depravity in the commission of murder in the first or second degree.</td>
+            <td> NOTE </td>
         </tr>
         <tr class="capital-felony">
             <td>P.C. 1102</td>

@@ -12,15 +12,16 @@
   border-radius: 5px;
   overflow: hidden;
   margin: 0 auto 20px;
-  max-width: 800px !important;
-  background-color: #c1ffc1; // Darker shade as the base color
+  max-width: 1000px !important; // Increased from 800px to 1000px
+  background-color: #c1ffc1;
 
   h2 {
     text-align: center;
     margin: 0;
     padding: 15px;
-    background-color: #c1ffc1; // Darker shade for the header
+    background-color: #c1ffc1;
     border-bottom: 1px solid #4d4d4d;
+    font-size: 1.5em; // Slightly larger font for the header
   }
 
   ul {
@@ -31,30 +32,29 @@
   }
 
   li {
-    padding: 15px 15px 15px 30px; // Increased left padding
+    padding: 12px 20px 12px 35px; // Adjusted padding
     margin: 0;
     border-bottom: 1px solid #4d4d4d;
     width: 100% !important;
     box-sizing: border-box !important;
-    position: relative; // For positioning the dash
+    position: relative;
+    font-size: 0.95em; // Slightly smaller font for better fit
 
     &:nth-child(odd) {
-      background-color: #e6ffe6; // Lighter shade for odd items
+      background-color: #e6ffe6;
     }
 
     &:last-child {
       border-bottom: none;
     }
 
-    // Style for the dash
     &::before {
       content: "-";
       position: absolute;
-      left: 15px;
-      top: 15px;
+      left: 20px;
+      top: 12px;
     }
 
-    // Force content inside list items to full width
     > * {
       width: 100% !important;
       max-width: none !important;

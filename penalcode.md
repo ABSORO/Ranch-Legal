@@ -17,7 +17,7 @@ However if a time is already in years don't apply this to it. (i.e. 1 Year = 144
 <li>Persons may plea Not Guilty to 1st Degree Felonies or Higher as well as any individual charges with a stated time of 1 Year or Higher. Anything else shall be appeal after the fact or handled by a Judge on scene.</li>
 </ul>
 <p class="max-sentence"><strong>MAX OVERALL TIME -  7 Years (7 OOC Days)                           MAX OVERALL FINE - $300</strong></p>
-</div>
+</div> 
 
 <!-- Keep the rest of your table HTML as it is -->
 <table class="penal-code-table">

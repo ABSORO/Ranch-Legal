@@ -54,18 +54,17 @@ nav_order: 3
     }
 
 .important-note {
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
+    background-color: #e6ffe6;
+    border: 1px solid #4d4d4d;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
     font-family: Arial, sans-serif;
 }
 
 .important-note h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .important-note ul {
@@ -73,13 +72,13 @@ nav_order: 3
 }
 
 .important-note li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-.max-sentence {
-    font-weight: bold;
+.important-note .max-sentence {
     text-align: center;
-    margin-top: 10px;
+    font-weight: bold;
+    margin-top: 15px;
 }
 </style>
 
@@ -97,8 +96,7 @@ nav_order: 3
             However if a time is already in years don't apply this to it. (i.e. 1 Year = 1440 Days ≠ 10 Years)</li>
         <li>Persons may plea Not Guilty to 1st Degree Felonies or Higher as well as any individual charges with a stated time of 1 Year or Higher. Anything else shall be appeal after the fact or handled by a Judge on scene.</li>
     </ul>
-    <p class="max-sentence">MAX OVERALL TIME -  7 Years (7 OOC Days)                           MAX OVERALL FINE - $300</p>
-</div>
+    <p class
 <table class="penal-code-table">
     <thead>
         <tr>

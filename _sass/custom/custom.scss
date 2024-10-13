@@ -128,14 +128,21 @@ table {
       background-color: #e6ffe6;
       border: 1px solid #4d4d4d;
       border-radius: 5px;
-      padding: 0; // Remove padding from ul
+      padding: 0;
       margin-bottom: 20px;
       font-family: Arial, sans-serif;
       list-style-type: none;
 
       li {
-        margin: 0; // Remove margin
-        padding: 10px 15px 10px 35px; // Add padding to li instead
+        margin: 0;
+        padding: 10px 15px 10px 35px; // Increased left padding for bullet points
+        position: relative; // For custom bullet points
+
+        &:before {
+          content: "•"; // Custom bullet point
+          position: absolute;
+          left: 15px;
+        }
 
         &:nth-child(even) {
           background-color: #c1ffc1;
@@ -153,6 +160,7 @@ table {
       }
     }
   }
+}
 
 
   // Styles for the MAX OVERALL TIME/FINE box

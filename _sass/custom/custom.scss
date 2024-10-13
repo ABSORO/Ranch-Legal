@@ -142,6 +142,19 @@ table {
         }
     }
 
+    .important-note {
+    max-width: 800px; /* Adjust this value as needed */
+    margin: 0 auto; /* This will center the box */
+    /* ... other existing styles ... */
+}
+    .important-note ul {
+    padding-left: 30px; /* Adjust as needed */
+    /* ... other existing styles ... */
+}
+    .important-note p, .important-note li {
+    max-width: 70ch; /* Limits line length for better readability */
+    margin: 0 auto; /* Centers the text */
+}
     .max-sentence {
         text-align: center;
         font-weight: bold;

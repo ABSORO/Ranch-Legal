@@ -2,58 +2,6 @@
 title: "Penal Code"
 nav_order: 3
 ---
-<style>
-    .penal-code-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-        font-family: Arial, sans-serif;
-    }
-
-    .penal-code-table th, .penal-code-table td {
-        border: 1px solid #666;
-        padding: 12px;
-        text-align: left;
-    }
-
-    .penal-code-table th {
-        background-color: #4d4d4d;
-        color: #ffffff;
-    }
-
-    .category-header {
-        background-color: #333;
-        color: #ffffff;
-        font-weight: bold;
-        text-align: center;
-        padding: 15px;
-    }
-
-    .capital-felony {
-        background-color: #ff738a;
-    }
-
-    .state-felony-first-degree {
-        background-color: #ff9d36;
-    }
-
-    .state-felony-second-degree {
-        background-color: #ffbd78;
-    }
-
-    .misdemeanor {
-        background-color: #ffffcc;
-    }
-
-    .non-criminal-infraction {
-        background-color: #e6ffe6;
-    }
-
-    .modifier {
-        background-color: #cce6ff;
-    }
-</style>
-
 <div class="important-note">
     <h3>Notes</h3>
     <ul>

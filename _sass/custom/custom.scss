@@ -120,7 +120,8 @@ table {
     padding: 15px;
     margin-bottom: 20px;
     font-family: Arial, sans-serif;
-    max-width: 100%;
+    max-width: 800px; /* Adjust this value as needed */
+    margin: 0 auto; /* This will center the box */
     box-sizing: border-box;
 
     h3 {
@@ -129,32 +130,24 @@ table {
     }
 
     ul {
-        padding-left: 20px;
-        list-style-type: none;
+        padding-left: 30px; /* Adjust as needed */
+        list-style-type: disc; /* Change to disc for bullet points */
+    }
 
-        li {
-            margin-bottom: 10px;
-            padding: 5px;
+    li {
+        margin-bottom: 10px;
+        padding: 5px;
 
-            &:nth-child(even) {
-                background-color: #c1ffc1; // Darker shade of green
-            }
+        &:nth-child(even) {
+            background-color: #c1ffc1; /* Darker shade of green */
         }
     }
 
-    .important-note {
-    max-width: 800px; /* Adjust this value as needed */
-    margin: 0 auto; /* This will center the box */
-    /* ... other existing styles ... */
-}
-    .important-note ul {
-    padding-left: 30px; /* Adjust as needed */
-    /* ... other existing styles ... */
-}
-    .important-note p, .important-note li {
-    max-width: 70ch; /* Limits line length for better readability */
-    margin: 0 auto; /* Centers the text */
-}
+    p, li {
+        max-width: 100%; /* Allow text to fill the container */
+        margin: 0; /* Remove auto margin */
+    }
+
     .max-sentence {
         text-align: center;
         font-weight: bold;

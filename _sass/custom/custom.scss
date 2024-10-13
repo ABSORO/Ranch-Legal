@@ -120,6 +120,8 @@ table {
     padding: 15px;
     margin-bottom: 20px;
     font-family: Arial, sans-serif;
+    max-width: 100%;
+    box-sizing: border-box;
 
     h3 {
         text-align: center;
@@ -128,11 +130,14 @@ table {
 
     ul {
         padding-left: 20px;
-        
+        list-style-type: none;
+
         li {
             margin-bottom: 10px;
+            padding: 5px;
+
             &:nth-child(even) {
-                background-color: #d6ffd6;
+                background-color: #c1ffc1; // Darker shade of green
             }
         }
     }
@@ -141,7 +146,7 @@ table {
         text-align: center;
         font-weight: bold;
         margin-top: 15px;
-        background-color: #d6ffd6;
+        background-color: #c1ffc1;
         padding: 10px;
         border: 1px solid #4d4d4d;
         border-radius: 5px;

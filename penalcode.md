@@ -52,35 +52,6 @@ nav_order: 3
     .modifier {
         background-color: #cce6ff;
     }
-
-.important-note {
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-family: Arial, sans-serif;
-}
-
-.important-note h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.important-note ul {
-    padding-left: 20px;
-}
-
-.important-note li {
-    margin-bottom: 5px;
-}
-
-.max-sentence {
-    font-weight: bold;
-    text-align: center;
-    margin-top: 10px;
-}
 </style>
 
 <div class="important-note">

@@ -16,7 +16,7 @@ nav_order: 3
 <li>Persons may plea Not Guilty to 1st Degree Felonies or Higher as well as any individual charges with a stated time of 1 Year or Higher. Anything else shall be appeal after the fact or handled by a Judge on scene.</li>
 </ul>
 </div>
-
+ 
 <div class="max-sentence">
 MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
 </div>

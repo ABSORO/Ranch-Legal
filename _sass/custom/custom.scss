@@ -116,13 +116,13 @@ table {
 .important-note {
     border: 1px solid #4d4d4d;
     border-radius: 5px;
-    padding: 15px;
     margin-bottom: 20px;
     font-family: Arial, sans-serif;
-    max-width: 800px; /* Adjust as needed */
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto 20px; /* Added bottom margin */
     box-sizing: border-box;
-    background-color: white; /* Or any other background color you prefer */
+    background-color: white;
+    padding: 15px;
 }
 
 .important-note h3 {
@@ -132,24 +132,28 @@ table {
 
 .important-note ul {
     padding-left: 20px;
-    list-style-type: disc;
+    list-style-type: none;
+    margin: 0;
 }
 
 .important-note li {
     margin-bottom: 10px;
     padding: 5px;
+    background-color: #e6ffe6; /* Light green */
 }
 
 .important-note li:nth-child(even) {
-    background-color: #c1ffc1; /* Darker shade of green */
+    background-color: #c1ffc1; /* Slightly darker green */
 }
 
 .max-sentence {
     text-align: center;
     font-weight: bold;
-    margin-top: 15px;
     background-color: #c1ffc1;
     padding: 10px;
     border: 1px solid #4d4d4d;
     border-radius: 5px;
+    max-width: 800px;
+    margin: 20px auto 0; /* Centered and space above */
+    box-sizing: border-box;
 }

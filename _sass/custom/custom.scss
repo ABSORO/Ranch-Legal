@@ -31,13 +31,12 @@
   }
 
   li {
-    padding: 15px;
+    padding: 15px 15px 15px 30px; // Increased left padding
     margin: 0;
     border-bottom: 1px solid #4d4d4d;
     width: 100% !important;
     box-sizing: border-box !important;
-    display: block; // Ensure it's displayed as a block
-    text-indent: 0; // Remove any text indentation
+    position: relative; // For positioning the dash
 
     &:nth-child(odd) {
       background-color: #e6ffe6; // Lighter shade for odd items
@@ -47,9 +46,12 @@
       border-bottom: none;
     }
 
-    // Remove any potential bullet-like styling
+    // Style for the dash
     &::before {
-      content: none;
+      content: "-";
+      position: absolute;
+      left: 15px;
+      top: 15px;
     }
 
     // Force content inside list items to full width
@@ -60,6 +62,7 @@
     }
   }
 }
+
 
 // Max sentence styles
 .max-sentence {

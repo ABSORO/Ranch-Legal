@@ -89,7 +89,7 @@ However if a time is already in years don't apply this to it. (i.e. 1 Year = 144
     <tbody>
         <!-- Capital Felonies Header -->
         <tr>
-            <td colspan="5" class="category-header">Capital Felony Charges</td>
+            <td colspan="5" class="capital-felony">Capital Felony Charges</td>
         </tr>
         <tr class="capital-felony">
             <td>Capital Felony</td>

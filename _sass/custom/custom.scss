@@ -7,19 +7,19 @@
 .main {
     margin-left: 268px !important; /* 248px sidebar + 20px margin */
     max-width: calc(100% - 288px) !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
 }
 
 @media (min-width: 66.5rem) {
     .side-bar {
         width: 248px !important;
-        left: calc((100% - 1064px) / 2) !important;
+        left: calc((100% - 1264px) / 2) !important; /* Increased from 1064px to 1264px */
     }
 
     .main {
-        margin-left: calc((100% - 1064px) / 2 + 268px) !important;
-        max-width: 796px !important; /* 1064px - 248px sidebar - 20px margin */
+        margin-left: calc((100% - 1264px) / 2 + 268px) !important;
+        max-width: 996px !important; /* Increased from 796px to 996px */
     }
 }
 
@@ -27,4 +27,17 @@
     .main {
         margin-left: 268px !important;
     }
+}
+
+/* Additional styles to improve readability */
+p, li {
+    max-width: 80ch !important; /* Limits line length for better readability */
+    line-height: 1.6 !important; /* Increases line spacing */
+}
+
+table {
+    width: 100% !important;
+    max-width: none !important;
+    display: block !important;
+    overflow-x: auto !important; /* Allows tables to scroll horizontally on small screens */
 }

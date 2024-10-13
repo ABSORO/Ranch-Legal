@@ -34,11 +34,11 @@ nav_order: 3
     }
 
     .state-felony-first-degree {
-        background-color: #ffdab3;
+        background-color: #ff9d36;
     }
 
     .state-felony-second-degree {
-        background-color: #ffe6b3;
+        background-color: #ffbd78;
     }
 
     .misdemeanor {

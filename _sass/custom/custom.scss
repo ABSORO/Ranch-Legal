@@ -114,31 +114,29 @@ table {
 
 // Styles for the important note section
 .main-content {
-  h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  // Styles for the Notes section
   .notes-section {
     max-width: 800px;
     margin: 0 auto 20px;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
 
     ul {
       background-color: #e6ffe6;
       border: 1px solid #4d4d4d;
       border-radius: 5px;
       padding: 0;
-      margin: 0; // Reset margin
+      margin: 0;
       font-family: Arial, sans-serif;
       list-style-type: none;
 
       li {
         margin: 0;
-        padding: 10px; // Reduced padding even further
-        position: relative;
-        width: 100%; // Ensure full width
-        box-sizing: border-box; // Include padding in width calculation
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
 
         &:nth-child(even) {
           background-color: #c1ffc1;
@@ -156,9 +154,7 @@ table {
       }
     }
   }
-}
 
-  // Styles for the MAX OVERALL TIME/FINE box
   .max-sentence {
     text-align: center;
     font-weight: bold;
@@ -169,6 +165,7 @@ table {
     margin: 15px auto;
     max-width: 800px;
   }
+}
 
   // Styles for the penal code table
   .penal-code-table {

@@ -186,7 +186,7 @@ However if a time is already in years don't apply this to it. (i.e. 1 Year = 144
         </tr>
         <!-- Modifiers Header -->
         <tr>
-            <td colspan="5" class="category-header">Modifiers</td>
+            <td colspan="5" class="modifier"><strong>Modifiers</strong></td>
         </tr>
         <tr class="modifier">
             <td>Modifier</td>

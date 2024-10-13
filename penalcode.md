@@ -5,7 +5,6 @@ nav_order: 3
 
 <div class="notes-section">
 <h2>Notes</h2>
-
 <ul>
 <li>HUT = Hold Until trial, this means that a Judge shall sentence or give them a trial depending on the individuals entered plea.</li>
 <li>If a trial is required, open an LFM ticket.</li>

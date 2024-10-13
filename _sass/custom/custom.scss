@@ -113,37 +113,40 @@ table {
 }
 
 // Styles for the important note section
-.important-note {
+.main-content {
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    background-color: #e6ffe6;
     border: 1px solid #4d4d4d;
     border-radius: 5px;
+    padding: 15px 15px 15px 35px;
     margin-bottom: 20px;
     font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: 0 auto 20px; /* Added bottom margin */
-    box-sizing: border-box;
-    background-color: white;
-    padding: 15px;
-}
-
-.important-note h3 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.important-note ul {
-    padding-left: 20px;
     list-style-type: none;
-    margin: 0;
-}
 
-.important-note li {
-    margin-bottom: 10px;
-    padding: 5px;
-    background-color: #e6ffe6; /* Light green */
-}
+    li {
+      margin-bottom: 10px;
+      padding: 5px;
 
-.important-note li:nth-child(even) {
-    background-color: #c1ffc1; /* Slightly darker green */
+      &:nth-child(even) {
+        background-color: #c1ffc1;
+      }
+    }
+  }
+
+  .max-sentence {
+    text-align: center;
+    font-weight: bold;
+    background-color: #c1ffc1;
+    padding: 10px;
+    border: 1px solid #4d4d4d;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
 }
 
 .max-sentence {

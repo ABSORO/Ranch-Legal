@@ -56,8 +56,8 @@ nav_order: 3
     .important-note {
         background-color: #e6ffe6;
         border: 1px solid #4d4d4d;
-        padding: 12px;
-        margin: 5px 0; /* Adjust the value to control the spacing between sentences */
+        padding: 1px;
+        margin: 1px 0; /* Adjust the value to control the spacing between sentences */
         font-family: Arial, sans-serif;
     }
 </style>

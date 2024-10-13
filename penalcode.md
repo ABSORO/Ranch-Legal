@@ -54,17 +54,18 @@ nav_order: 3
     }
 
 .important-note {
-    background-color: #e6ffe6;
-    border: 1px solid #4d4d4d;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
     border-radius: 5px;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 20px;
     font-family: Arial, sans-serif;
 }
 
 .important-note h3 {
-    text-align: center;
+    font-size: 1.2em;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .important-note ul {
@@ -72,13 +73,13 @@ nav_order: 3
 }
 
 .important-note li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-.important-note .max-sentence {
-    text-align: center;
+.max-sentence {
     font-weight: bold;
-    margin-top: 15px;
+    text-align: center;
+    margin-top: 10px;
 }
 </style>
 

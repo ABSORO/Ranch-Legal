@@ -170,6 +170,10 @@ table {
   .misdemeanor { background-color: #fff494; }
   .non-criminal-infraction { background-color: #e6ffe6; }
   .modifier { background-color: #cce6ff; }
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px 0;
 }
 
 @media (max-width: 768px) {

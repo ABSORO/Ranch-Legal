@@ -77,15 +77,16 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>No person shall act with intent or willful negligence to inflict severe physical or mental pain or suffering upon another person within his custody or physical control without a lawful reason to do so. No person shall engage in an act or behavior designed or intended to deprive a citizen of Monroe of their bodily functions or appendages in a malicious manner, including the rending useless of the aforementioned.</td>
             <td>This is the maximum, to be used in the most severe instances of torture. Please take the extent of the torture into account and adjust the time accordingly. Body part gone = Max Time.</td>
         <!-- State Felonies - First Degree Header -->
-        <tr>
-            <td colspan="5" class="state-felony-first-degree "><strong>State Felony Charges - First Degree</strong></td>
+ <tr>
+            <td colspan="6" class="state-felony-first-degree"><strong>State Felony Charges - First Degree</strong></td>
         </tr>
         <tr class="state-felony-first-degree">
             <td>P.C. 2101</td>
             <td>1st Degree Murder</td>
             <td>HUT</td>
-            <td>None</td>
-            <td>No person shall act in the unlawful killing of human beings with a premeditated design to effect the death of the person killed.</td>
+            <td>N/A</td>
+            <td>No person shall act in the unlawful killing of human beings with a premeditated design to effect the death of the person killed and shall be held equally liable if death occurs from any premeditated act.</td>
+            <td>Not to be used for typical gunfights or ambushes. There should be real RP behind the incident to show true premeditation.</td>
         </tr>
         <tr class="state-felony-first-degree">
             <td>P.C. 2102</td>
@@ -93,6 +94,47 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>1 Year</td>
             <td>$200</td>
             <td>No person shall attempt the act of unlawful killing of human beings with a premeditated design to effect the death of the person being attempted upon.</td>
+            <td>For anything not provable as premeditated, use Aggravated Battery. Not to be used for typical gunfights or ambushes. There should be real RP behind the premeditation and attempt to kill.</td>
+        </tr>
+        <tr class="state-felony-first-degree">
+            <td>P.C. 2103</td>
+            <td>Vandalism of a Native Site</td>
+            <td>120 Days</td>
+            <td>$250</td>
+            <td>No person shall, without lawful reason, destroy, damage or deface any sacred tribal lands or artifacts, or engage in conduct that would recklessly cause damage to any sacred tribal lands or artifacts.</td>
+            <td>Not to be used for more typical robberies that happen to occur at Native Camps. This is reserved for deliberate vandalism of important Native sites.</td>
+        </tr>
+        <tr class="state-felony-first-degree">
+            <td>P.C. 2104</td>
+            <td>Unlawful Escape</td>
+            <td>1 Year</td>
+            <td>$200</td>
+            <td>Any individual, or group of individuals, who attempts or successfully frees someone from law enforcement custody without lawful authority is guilty of this crime. Any individual who flees or allows themselves to be removed from lawful custody under unlawful circumstances is guilty of this crime.</td>
+            <td>If found guilty of Unlawful Escape, you are automatically found guilty of all other charges levied against you. Escape from Sisika requires LFM approval via ticket.</td>
+        </tr>
+        <tr class="state-felony-first-degree">
+            <td>P.C. 2105</td>
+            <td>Corruption</td>
+            <td>HUT</td>
+            <td>N/A</td>
+            <td>No person shall utilize their office to acquire benefit, pervert the course of justice, or wilfully deprive a person of their rights or engage in unlawful conduct while acting in an official duty nor shall any person in an official office fail to report, conceal, or cover up any felony. Eligible for parole.</td>
+            <td>Corruption must be approved out of character via an LFM Ticket. And can potentially lead to a CK on your character.</td>
+        </tr>
+        <tr class="state-felony-first-degree">
+            <td>P.C. 2106</td>
+            <td>Bank Robbery</td>
+            <td>300 Days</td>
+            <td>$125</td>
+            <td>Any person who robs or attempts to rob a financial institution. If charged with this the individual is not to be charged for the taking of hostages or evading law enforcement as those are included in this charge.</td>
+            <td>Proceeds of a Bank Robbery are subject to criminal seizure.</td>
+        </tr>
+        <tr class="state-felony-first-degree">
+            <td>P.C. 2107</td>
+            <td>Poss. of Explosive Weapons</td>
+            <td>120 Days</td>
+            <td>$80</td>
+            <td>Unlicensed possession of an explosive device such as a Stick of Dynamite or Fire-Bottle.</td>
+            <td>Shall Include Dynamite sticks and Fire-bottles</td>
         </tr>
         <!-- State Felonies - Second Degree Header -->
         <tr>

@@ -5,7 +5,7 @@ nav_order: 2
 
 <div style="text-align: center;">
 
-<span style="text-align: center; font-family: 'Georgia', serif; font-weight: bold; text-transform: uppercase;">Constitution of the State of Monroe</span>
+<span style="text-align: justify; font-family: 'Georgia', serif; font-size: 10; font-weight: bold; text-transform: uppercase;">Constitution of the State of Monroe</span>
 
 <hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
 

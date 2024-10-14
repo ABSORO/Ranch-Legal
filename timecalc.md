@@ -23,11 +23,11 @@ Use this calculator to determine the total sentencing time and fines based on se
 Please select charges to begin calculating your total sentencing time and fines.
 
 <div id="calculator">
-  <input type="text" id="search" placeholder="Search for charges...">
-  <div id="searchResults"></div>
+  <div class="dropdown">
+    <input type="text" id="search" placeholder="Search for charges...">
+    <div id="dropdown-content"></div>
+  </div>
   <div id="selectedCharges"></div>
-  <h3>Modifiers</h3>
-  <div id="modifiers"></div>
   <div id="totalSentence"></div>
   <div id="totalFine"></div>
   <button id="clearButton">Clear Selection</button>
@@ -106,23 +106,31 @@ const penalCodeModifiers = [
 
 let selectedCharges = [];
 
-function searchCharges() {
-  const searchTerm = document.getElementById('search').value.toLowerCase();
-  const results = penalCode.filter(charge => 
-    charge.code.toLowerCase().includes(searchTerm) || 
-    charge.name.toLowerCase().includes(searchTerm)
-  );
-  displaySearchResults(results);
+function populateDropdown() {
+  const dropdownContent = document.getElementById('dropdown-content');
+  dropdownContent.innerHTML = '';
+  penalCode.forEach(charge => {
+    const option = document.createElement('div');
+    option.className = 'dropdown-item';
+    option.innerHTML = `${charge.code} - ${charge.name}`;
+    option.onclick = () => addCharge(charge);
+    dropdownContent.appendChild(option);
+  });
 }
 
-function displaySearchResults(results) {
-  const resultsDiv = document.getElementById('searchResults');
-  resultsDiv.innerHTML = '';
-  results.forEach(charge => {
-    const chargeDiv = document.createElement('div');
-    chargeDiv.innerHTML = `${charge.code} - ${charge.name} (Max: ${charge.maxTime} ${charge.timeUnit}, $${charge.maxFine})`;
-    chargeDiv.onclick = () => addCharge(charge);
-    resultsDiv.appendChild(chargeDiv);
+function filterCharges() {
+  const searchTerm = document.getElementById('search').value.toLowerCase();
+  const dropdownContent = document.getElementById('dropdown-content');
+  dropdownContent.innerHTML = '';
+  penalCode.filter(charge => 
+    charge.code.toLowerCase().includes(searchTerm) || 
+    charge.name.toLowerCase().includes(searchTerm)
+  ).forEach(charge => {
+    const option = document.createElement('div');
+    option.className = 'dropdown-item';
+    option.innerHTML = `${charge.code} - ${charge.name}`;
+    option.onclick = () => addCharge(charge);
+    dropdownContent.appendChild(option);
   });
 }
 
@@ -130,11 +138,13 @@ function addCharge(charge) {
   selectedCharges.push(charge);
   updateSelectedCharges();
   calculateTotal();
+  document.getElementById('search').value = '';
+  filterCharges();
 }
 
 function updateSelectedCharges() {
   const selectedDiv = document.getElementById('selectedCharges');
-  selectedDiv.innerHTML = '';
+  selectedDiv.innerHTML = '<h3>Selected Charges:</h3>';
   selectedCharges.forEach(charge => {
     const chargeDiv = document.createElement('div');
     chargeDiv.innerHTML = `${charge.code} - ${charge.name} (${charge.maxTime} ${charge.timeUnit}, $${charge.maxFine})`;
@@ -149,11 +159,13 @@ function calculateTotal() {
 
   selectedCharges.forEach(charge => {
     if (charge.timeUnit === 'days') {
-      totalDays += charge.maxTime;
+      totalDays += parseInt(charge.maxTime) || 0;
     } else if (charge.timeUnit === 'years') {
-      totalYears += charge.maxTime;
+      if (charge.maxTime !== 'HUT') {
+        totalYears += parseInt(charge.maxTime) || 0;
+      }
     }
-    totalFine += charge.maxFine;
+    totalFine += parseInt(charge.maxFine) || 0;
   });
 
   // Convert days to years if necessary
@@ -165,6 +177,9 @@ function calculateTotal() {
   // Display results
   const sentenceDiv = document.getElementById('totalSentence');
   sentenceDiv.innerHTML = `Total Time: ${totalYears > 0 ? totalYears + ' Years' : ''} ${totalDays > 0 ? totalDays + ' Days' : ''}`.trim();
+  if (selectedCharges.some(charge => charge.maxTime === 'HUT')) {
+    sentenceDiv.innerHTML += ' (HUT)';
+  }
   
   const fineDiv = document.getElementById('totalFine');
   fineDiv.innerHTML = `Total Fine: $${totalFine}`;
@@ -174,11 +189,16 @@ function clearSelection() {
   selectedCharges = [];
   updateSelectedCharges();
   calculateTotal();
+  document.getElementById('search').value = '';
+  filterCharges();
 }
 
 // Event listeners
-document.getElementById('search').addEventListener('input', searchCharges);
+document.getElementById('search').addEventListener('input', filterCharges);
 document.getElementById('clearButton').addEventListener('click', clearSelection);
+
+// Initialize the dropdown
+populateDropdown();
 </script>
 
 <style>
@@ -190,29 +210,58 @@ document.getElementById('clearButton').addEventListener('click', clearSelection)
   border-radius: 5px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
 #search {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
 }
 
-#searchResults div, #selectedCharges div {
-  padding: 5px;
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-item {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
   cursor: pointer;
 }
 
-#searchResults div:hover {
-  background-color: #f0f0f0;
+.dropdown-item:hover {
+  background-color: #f1f1f1;
 }
 
-#totalSentence, #totalFine {
-  font-weight: bold;
-  margin-top: 10px;
+#search:focus + #dropdown-content {
+  display: block;
+}
+
+#selectedCharges, #totalSentence, #totalFine {
+  margin-top: 20px;
 }
 
 #clearButton {
-  margin-top: 10px;
-  padding: 5px 10px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#clearButton:hover {
+  background-color: #d32f2f;
 }
 </style>
-

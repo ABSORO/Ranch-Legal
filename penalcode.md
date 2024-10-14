@@ -31,7 +31,6 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <th>Definition</th>
             <th>Notes</th>
         </tr>
-    </thead>
     <tbody>
         <!-- Capital Felonies Header -->
         <tr>

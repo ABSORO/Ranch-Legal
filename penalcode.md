@@ -394,6 +394,80 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>No person shall willfully, or by act of omission, disobey or obstruct an order of the court, or the written judgement of a Judge or Justice of the Peace, or cause any kind of disturbance or obstruction to proceedings of a court.</td>
             <td>Imposed by a Judge</td>
         </tr>
+        <!-- Second Degree -->
+         <tr>
+            <td colspan="6" class="misdemeanor"><strong>Second Degree</strong></td>
+        </tr>
+        <tr class="misdemeanor">
+            <td>P.C. 3201</td>
+            <td>Poss. of Illegal Contraband/Weapons</td>
+            <td>30 Days</td>
+            <td>$30</td>
+            <td>No person shall have, own, or be in control of the following objects; marijuana (Mota), Hemp, Marked Bills, Lockpicks, Illegal Alcohol. No person shall be found in possession of weapons deemed illegal in the State of Monroe or weapons that have been altered to be made illegal.</td>
+            <td>(i) Persons may apply for a licence to grow hemp with Monroe Sheriff's Office (Chief Deputy or higher) or the Department of Justice, that shall be kept on record. Medical Professionals are excempt in regards to the distribution when prescribing it, where they need to show a medical license. (ii) Persons are allowed to be in possession of Mota Joints if they have a valid prescriptions.</td>
+        </tr>
+        <tr class="misdemeanor">
+            <td>P.C. 3202</td>
+            <td>Destruction of Stabled Property</td>
+            <td>30 Days</td>
+            <td>$30</td>
+            <td>Inflicting intentional damage on the horse, wagon, or other mode of transportation of an individual or group.</td>
+            <td>Not to be used for horses injured in shootouts.</td>
+        </tr>
+        <tr class="misdemeanor">
+            <td>P.C. 3203</td>
+            <td>Destruction of Livestock</td>
+            <td>120 Days</td>
+            <td>$100</td>
+            <td>Intentional destruction of the livestock owned by an individual or group.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor">
+            <td>P.C. 3204</td>
+            <td>Graveyard Vandalism, Disinterment, or Desecration of a Body</td>
+            <td>30 Days</td>
+            <td>$40</td>
+            <td>No person shall take part in the desecrating of any grave by means of disturbing the body of a deceased person or their place of rest without an exhumation order from the court. No person shall desecrate the body of a deceased individual.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor">
+            <td>P.C. 3205</td>
+            <td>Failure to Obey a Lawful Order</td>
+            <td>30 Days</td>
+            <td>$0</td>
+            <td>No person shall refuse to comply with the orders of a law enforcement officer, given to them in a lawful manner or under reasonable circumstances.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor">
+            <td>P.C. 3206</td>
+            <td>Vigilantism</td>
+            <td>60 Days</td>
+            <td>$0</td>
+            <td>No person shall, or attempt to, execute the duties of a law enforcement officer outside a lawfully made citizen's arrest, or execute any act of justice without lawful authority to do so.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor">
+            <td>P.C. 3207</td>
+            <td>Petty Theft</td>
+            <td>30 Days</td>
+            <td>$20</td>
+            <td>No person shall dishonestly appropriate property, under the value of $200, belonging to another with the intention of permanently or temporarily depriving the other of it</td>
+            <td>Not to be pushed in addition to a Robbery charge.</td>
+        </tr>
+        <tr class="misdemeanor">
+            <td>P.C. 3208</td>
+            <td>Horse Theft</td>
+            <td>50 Days</td>
+            <td>$25</td>
+            <td>No person shall steal the horse of another individual. This includes horses attached to a stolen wagon.</td>
+            <td>To be used when players steal a horse or wagon.</td>
+        </tr>
+        
+        <!-- Third Degree -->
+        <tr>
+            <td colspan="6" class="misdemeanor"><strong>Third Degree</strong></td>
+        </tr>
+        
         <!-- Non-Criminal Infractions Header -->
         <tr>
             <td colspan="5" class="non-criminal-infraction"><strong>Non-Criminal Infractions</strong></td>

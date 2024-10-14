@@ -199,6 +199,37 @@ document.getElementById('clearButton').addEventListener('click', clearSelection)
 
 // Initialize the dropdown
 populateDropdown();
+
+function applyStyles() {
+  const calculator = document.getElementById('calculator');
+  calculator.style.maxWidth = '600px';
+  calculator.style.margin = '0 auto';
+  calculator.style.padding = '20px';
+  calculator.style.border = '1px solid #ddd';
+  calculator.style.borderRadius = '5px';
+  calculator.style.backgroundColor = 'white';
+
+  const search = document.getElementById('search');
+  search.style.width = '100%';
+  search.style.padding = '10px';
+  search.style.marginBottom = '10px';
+  search.style.fontSize = '16px';
+
+  const clearButton = document.getElementById('clearButton');
+  clearButton.style.marginTop = '20px';
+  clearButton.style.padding = '10px';
+  clearButton.style.backgroundColor = '#f44336';
+  clearButton.style.color = 'white';
+  clearButton.style.border = 'none';
+  clearButton.style.cursor = 'pointer';
+  clearButton.style.fontSize = '16px';
+}
+
+// Call this function after the page loads
+window.onload = function() {
+  populateDropdown();
+  applyStyles();
+};
 </script>
 
 <style>
@@ -208,6 +239,7 @@ populateDropdown();
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  background-color: white;
 }
 
 .dropdown {
@@ -220,6 +252,7 @@ populateDropdown();
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
 #dropdown-content {
@@ -238,6 +271,7 @@ populateDropdown();
   text-decoration: none;
   display: block;
   cursor: pointer;
+  font-size: 14px;
 }
 
 .dropdown-item:hover {
@@ -250,6 +284,7 @@ populateDropdown();
 
 #selectedCharges, #totalSentence, #totalFine {
   margin-top: 20px;
+  font-size: 16px;
 }
 
 #clearButton {
@@ -259,6 +294,7 @@ populateDropdown();
   color: white;
   border: none;
   cursor: pointer;
+  font-size: 16px;
 }
 
 #clearButton:hover {

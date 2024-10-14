@@ -3,11 +3,6 @@ title: Time & Fine Calculator
 nav_order: 4
 ---
 
----
-title: "Time and Fine Calculator"
-nav_order: 4
----
-
 # Time and Fine Calculator
 
 Use this calculator to determine the total sentencing time and fines based on selected charges from the State of Monroe Penal Code.

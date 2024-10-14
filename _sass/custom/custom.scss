@@ -1,374 +1,72 @@
-// Override theme styles
-.main-content-wrap,
-.main-content,
-.page-content {
-  max-width: none;
-  width: 100% !important;
-}
-p[style*="max-width"] {
-  margin-left: auto;
-  margin-right: auto;
-}
-.main-content {
-  h2, h3 {
-    text-align: center;
-  }
+/* Custom Left Panel Navigation Styles for Ranch Legal Theme */
 
-  p[style*="max-width"] {
-    margin-left: auto;
-    margin-right: auto;
-  }
+/* Base styles for left panel */
+.left-panel {
+  position: sticky;
+  top: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  overflow-y: auto;
 }
 
-// Constitution Styling
-.constitution-title {
-  text-align: center;
+/* Collapsible menu styles */
+.collapsible {
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #007ACC;
+  border: none;
+  background: none;
+  outline: none;
+  text-align: left;
   width: 100%;
-  margin: 20px 0;
-
-  h1 {
-    font-family: 'Georgia', serif;
-    font-size: 36px;
-    font-weight: bold;
-    text-transform: uppercase;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-  }
 }
-  span {
-    display: inline-block;
-    max-width: 100%;
-  }
 
-.constitution-heading {
-  font-family: 'Georgia', serif;
-  font-size: 36px;
+/* Active link highlighting */
+.active-link {
+  background-color: #e3f2fd;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
-
-// Notes section styles
-.notes-section {
-  border: 1px solid #4d4d4d;
-  border-radius: 5px;
-  overflow: hidden;
-  margin: 0 auto 20px;
-  max-width: 1400px !important;
-  background-color: #c1ffc1;
-  font-size: 0.9em;
-
-  h2 {
-    text-align: center;
-    margin: 0;
-    padding: 12px;
-    background-color: #c1ffc1;
-    border-bottom: 1px solid #4d4d4d;
-    font-size: 1.3em;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 100% !important;
-  }
-
-  li {
-    padding: 10px 15px 10px 25px;
-    margin: 0;
-    border-bottom: 1px solid #4d4d4d;
-    width: 100% !important;
-    box-sizing: border-box !important;
-    position: relative;
-
-    &:nth-child(odd) {
-      background-color: #e6ffe6;
-    }
-
-    &:last-child {
-      border-bottom: none;
-    }
-
-    &::before {
-      content: "-";
-      position: absolute;
-      left: 10px;
-      top: 10px;
-    }
-
-    > * {
-      width: 100% !important;
-      max-width: none !important;
-      display: inline-block !important;
-    }
-  }
+/* Content for collapsible sections */
+.collapsible-content {
+  display: none;
+  padding-left: 20px;
 }
 
-// Max sentence styles
-.max-sentence {
-  text-align: center;
-  font-weight: bold;
-  background-color: #c1ffc1;
-  padding: 5px;
-  border: 1px solid #4d4d4d;
-  border-radius: 3px;
-  margin: 5px auto;
-  max-width: 800px;
-  font-color: #000000;
+/* Expand/collapse behavior */
+.collapsible.open + .collapsible-content {
+  display: block;
 }
 
-// Existing styles for layout
-.side-bar {
-  width: 248px !important;
-  position: fixed !important;
-  left: 0 !important;
-}
-
-.main {
-  margin-left: calc(168px + 5px) !important;
-  max-width: calc(100% - 288px - 5px) !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-}
-
-@media (min-width: 66.5rem) {
-  .side-bar {
-    width: 248px !important;
-    left: 2rem !important;
-  }
-
-  .main {
-    margin-left: calc(248px + 4rem + 5px) !important;
-    max-width: calc(100% - 248px - 8rem - 5px) !important;
-  }
-}
-
-@media (max-width: 66.5rem) {
-  .main {
-    margin-left: calc(268px + 5px) !important;
-  }
-}
-
-@media (max-width: 50rem) {
-  .side-bar {
-    width: 100% !important;
-    position: relative !important;
-  }
-
-  .main {
-    margin-left: 0 !important;
-    max-width: 100% !important;
-  }
-}
-
-// Additional styles for readability
-p {
-  max-width: 80ch !important;
-  line-height: 1.6 !important;
-}
-
-li {
-  line-height: 1.6 !important;
-}
-
-// Styles for the penal code table
-.penal-code-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-  font-family: Arial, sans-serif;
-  table-layout: fixed;
-  font-color: #000000 !important;
-
-  th, td {
-    border: 1px solid #666;
-    padding: 8px;
-    text-align: left;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-  }
-
-  th {
-    background-color: #4d4d4d;
-    color: #ffffff;
-  }
-
-  th:nth-child(1),
-  td:nth-child(1) {
-    width: 10%;
-  }
-
-  th:nth-child(2),
-  td:nth-child(2) {
-    width: 15%;
-  }
-
-  th:nth-child(3),
-  td:nth-child(3),
-  th:nth-child(4),
-  td:nth-child(4) {
-    width: 10%;
-  }
-
-  th:nth-child(5),
-  td:nth-child(5) {
-    width: 35%;
-  }
-
-  th:nth-child(6),
-  td:nth-child(6) {
-    width: 20%;
-  }
-
-  .category-header {
-    background-color: #333;
-    color: #ffffff;
-    font-weight: bold;
-    text-align: center;
-    padding: 15px;
-  }
-
-  .capital-felony { background-color: #ff5454; }
-  .state-felony-first-degree { background-color: #ff7f54; }
-  .state-felony-second-degree { background-color: #ffaa54; }
-  .state-felony-third-degree { background-color: #ffd154; }
-  .misdemeanor { background-color: #fff494; }
-  .non-criminal-infraction { background-color: #e6ffe6; }
-  .modifier { background-color: #cce6ff; }
-}
-
-.penal-code-table tr[class$="-degree"] td,
-.penal-code-table tr[class="capital-felony"] td,
-.penal-code-table tr[class="misdemeanor"] td,
-.penal-code-table tr[class="non-criminal-infraction"] td,
-.penal-code-table tr[class="modifier"] td {
-  text-align: center;
-  font-weight: bold;
-  padding: 10px 0;
-  font-color: #000000;
-}
-
-// Illegal Items Table
-#illegal-items-table {
-  .illegal-items-header {
-    background-color: #4d4d4d !important;
-    color: black !important;
-    text-align: center !important;
-    font-weight: bold !important;
-    font-size: 5em !important;
-    padding: 20px !important;
-  }
-
-  .illegal-column {
-    vertical-align: top !important;
-    padding: 10px !important;
-    width: 100% !important;
-  }
-
-  tr:last-child td {
-    display: inline-block !important;
-    width: 50% !important;
-    box-sizing: border-box !important;
-  }
-
-  .illegal-column h3 {
-    text-align: center !important;
-    margin-bottom: 15px !important;
-    background-color: #e6e6e6 !important;
-    padding: 10px !important;
-    border-radius: 5px !important;
-    font-size: 1.3em !important;
-  }
-
-  .illegal-list {
-    padding: 0 15px !important;
-  }
-
-  .illegal-list div {
-    padding: 8px !important;
-    margin-bottom: 5px !important;
-    font-size: 1.1em !important;
-  }
-
-  .illegal-list div:nth-child(odd) {
-    background-color: #f2f2f2 !important;
-  }
-
-  .illegal-list div:nth-child(even) {
-    background-color: #ffffff !important;
-  }
-}
-
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  #illegal-items-table {
-    tr:last-child td {
-      display: block !important;
-      width: 100% !important;
-    }
-    @media (min-width: 66.5rem) {
-  .main {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: calc(100% - 248px - 8rem) !important;
-  }
-}
-
-    .illegal-items-header {
-      font-size: 1.5em !important;
-    }
-
-    .illegal-column h3 {
-      font-size: 1.2em !important;
-    }
-
-    .illegal-list div {
-      font-size: 1em !important;
-    }
-  }
-}
-
-.illegal-list div:nth-child(odd) {
-    background-color: #f2f2f2;
-}
-
-.illegal-list div:nth-child(even) {
-    background-color: #ffffff;
-}
-
-@media (max-width: 768px) {
-    .penal-code-table tr:last-child td {
-        display: block;
-        width: 100%;
-    }
-}
-  .penal-code-table th,
-  .penal-code-table td {
-    padding: 5px;
-  }
-
-  .illegal-column {
-    display: block;
+  .left-panel {
     width: 100%;
-  }
-  .illegal-items-title {
-    font-size: 1.5em;
-    display: block;
-    text-align: center !important;
-}
-.main-content-wrapper {
-  padding-left: 5px !important;
-}
-
-@media (max-width: 66.5rem) {
-  .main-content-wrapper {
-    padding-left: 5px !important;
+    height: auto;
+    position: relative;
   }
 }
 
-@media (max-width: 50rem) {
-  .main-content-wrapper {
-    padding-left: 0 !important;
-  }
-}
+/* JavaScript integration for collapsible functionality */
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const collapsibleElements = document.querySelectorAll('.collapsible');
+
+  collapsibleElements.forEach(button => {
+    button.addEventListener('click', function() {
+      this.classList.toggle('open');
+      const content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  });
+});
+</script>

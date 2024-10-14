@@ -42,4 +42,8 @@ Please select charges to begin calculating your total sentencing time and fines.
   <button id="clearButton">Clear Selection</button>
 </div>
 
-<script src="{{ site.baseurl }}/assets/js/calculator.js"></script>
+{% raw %}
+<script>
+{% include_relative assets/js/calculator.js %}
+</script>
+{% endraw %}

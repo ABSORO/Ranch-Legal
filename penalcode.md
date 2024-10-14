@@ -196,10 +196,117 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>No person shall, without lawful reason, by threat, accusations, or violence, induce any person to do anything but not limited to: Make ransom payments, make any kind of monetary transfer, or give up any kind of property.</td>
             <td></td>
         </tr>
-        <!-- State Felonies - Second Degree Header -->
-            <tr>
-            <td colspan="5" class="state-felony-third-degree"><strong>State Felony Charges - Third Degree</strong></td>
-            </tr>
+        <!-- State Felonies - Third Degree Header -->
+ <tr>
+            <th>Category</th>
+            <th>Charge</th>
+            <th>Max Time</th>
+            <th>Max Fine</th>
+            <th>Definition</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- State Felonies - Third Degree Header -->
+        <tr>
+            <td colspan="6" class="state-felony-third-degree"><strong>State Felony Charges - Third Degree</strong></td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2301</td>
+            <td>Arson</td>
+            <td>300 Days</td>
+            <td>$150</td>
+            <td>The act of knowingly setting fire to, or charring, another person's personal property without consent or with malicious intent.</td>
+            <td>The building must be burnt to a point of being rebuilt. Charge if details have been left indicating the place has been burnt down.</td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2302</td>
+            <td>Grand Theft</td>
+            <td>60 Days</td>
+            <td>$200</td>
+            <td>No person shall dishonestly appropriate property, at or above the value of $200, belonging to another with the intention of permanently or temporarily depriving the other of it</td>
+            <td></td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2303</td>
+            <td>Fraud</td>
+            <td>60 Days</td>
+            <td>$60</td>
+            <td>No person shall devise any scheme or plot for the purposes of obtaining money, property or any other thing of material value, by means of false pretences, representation, promises, nor provide any form of documentation for the purposes of gain or benefit otherwise not lawfully entitled to. Any embezzelment would fall under this.</td>
+            <td></td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2304</td>
+            <td>Obstruction of Justice</td>
+            <td>60 Days</td>
+            <td>$50</td>
+            <td>Unlawfully hindering the discovery, apprehension, conviction, defense, or punishment of anyone who has committed a crime or of evidence.</td>
+            <td>This should be an independent act not covered by another charge.</td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2305</td>
+            <td>Business Robbery</td>
+            <td>100 Days</td>
+            <td>$70</td>
+            <td>Any person who robs or attempts to rob any business other than a financial institution. If charged with this the individual is not to be charged for the taking of hostages or evading law enforcement as those are included in this charge.</td>
+            <td></td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2306</td>
+            <td>Perjury</td>
+            <td>1 Year</td>
+            <td>N/A</td>
+            <td>The act of wilfully submitting false statements or deliberately making a misrepresentation whilst under oath.</td>
+            <td>If a legal entity is charged, immediate suspension.</td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2307</td>
+            <td>Negligence of Duty</td>
+            <td>1 Year</td>
+            <td>N/A</td>
+            <td>No person shall willfully or through an act of negligence, fail to complete, maintain, or operate appropriately to adequate standards when holding a position within a law enforcement agency, especially in regards to the safety of the public at large.</td>
+            <td>If a legal entity is charged, immediate suspension.</td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2308</td>
+            <td>Manufacturing Illegal Goods and Weapons</td>
+            <td>1 Year</td>
+            <td>$250</td>
+            <td>No person shall be found to be manufacturing any unregulated alcohol in the State of Monroe. No person shall be found manufacturing weapons deemed unlawful in the State of Monroe or altering prexisting weapons to make them unlawful. For the purpose of this crime, unregulated alcohol shall be defined as alcohol manufactured by a party not lawfully authorised to do so.</td>
+            <td>All drugs other than Mota will fall under this category.</td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2309</td>
+            <td>Smuggling or Distribution of Illegal Items</td>
+            <td>60 Days</td>
+            <td>$100</td>
+            <td>No person shall move items that would be considered illegal or contraband, outlined by the Monroe Penal Code, into the State of Monroe or any Correctional Institution. No person shall distribute illegal alcohol or other illegal items outlined by the Monroe Penal Code.</td>
+            <td></td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2310</td>
+            <td>Handling Stolen Goods</td>
+            <td>60 Days</td>
+            <td>$70</td>
+            <td>No person shall receive goods that they know to be stolen, nor shall they assist in their retention, removal, disposal, nor shall they assist for the benefit for another person.</td>
+            <td></td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2311</td>
+            <td>Illegal Manufacturing of Marijuana</td>
+            <td>120 Days</td>
+            <td>$150</td>
+            <td>No person shall be found to be manufacturing any marijuana (Mota) in the State of Monroe. For the Purposes of this charge, this shall refer to the growing or processing of any marijuana (Mota).</td>
+            <td>(i) Persons may apply for a licence to grow hemp with Monroe Sheriff's Office (Chief Deputy or higher) or the Department of Justice, that shall be kept on record. (ii) Medical Professionals are excempt in regards to the distribution when prescribing it, where they need to show a medical license.</td>
+        </tr>
+        <tr class="state-felony-third-degree">
+            <td>P.C. 2312</td>
+            <td>Robbery</td>
+            <td>60 Days</td>
+            <td>$50</td>
+            <td>No person shall unlawfully and intentionally take or attempt to take personal property in the possession of another, against his will, or by means of force or the threat thereof, and with a purpose or intent to deprive the person permanently or temporarily of the personal property.</td>
+            <td>This is to be used for armed robberies of other players. If possessions are taken at a value at or greater than $200 a charge of Grand Theft can be applied in addition to it.</td>
+        </tr>
         <!-- Misdemeanors Header -->
         <tr>
             <td colspan="5" class="misdemeanor"><strong>Misdemeanors</strong></td>

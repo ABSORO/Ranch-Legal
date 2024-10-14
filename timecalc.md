@@ -42,24 +42,4 @@ Please select charges to begin calculating your total sentencing time and fines.
   <button id="clearButton">Clear Selection</button>
 </div>
 
----
-title: Time & Fine Calculator
-nav_order: 4
----
-
-# Time and Fine Calculator
-
-(Keep all the existing content up to the <script> tag)
-
-<div id="calculator">
-  <div class="dropdown">
-    <input type="text" id="search" placeholder="Search for charges...">
-    <div id="dropdown-content"></div>
-  </div>
-  <div id="selectedCharges"></div>
-  <div id="totalSentence"></div>
-  <div id="totalFine"></div>
-  <button id="clearButton">Clear Selection</button>
-</div>
-
 <script src="{{ site.baseurl }}/assets/js/calculator.js"></script>

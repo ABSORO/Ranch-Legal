@@ -29,35 +29,53 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <th>Max Time</th>
             <th>Max Fine</th>
             <th>Definition</th>
+            <th>Notes</th>
         </tr>
     </thead>
     <tbody>
         <!-- Capital Felonies Header -->
         <tr>
-            <td colspan="5" class="capital-felony"><strong>Capital Felony Charges</strong></td>
+            <td colspan="6" class="capital-felony"><strong>Capital Felony Charges</strong></td>
         </tr>
         <tr class="capital-felony">
             <td>P.C. 1101</td>
             <td>Capital Murder</td>
             <td>HUT</td>
-            <td>None</td>
-            <td>Any person who uses any heinous, atrocious, or cruel act manifesting exceptional depravity in the commission of murder in the first or second degree.</td>
-            <td> NOTE </td>
+            <td>N/A</td>
+            <td>Any person who uses any heinous, atrocious, or cruel act manifesting exceptional depravity in the commission of murder in the first or second degree. Any person who deliberately and with premeditation takes the life of a law enforcement official, government official, or medical official, in the commission of their duty, or any witness in a legal proceeding.</td>
+            <td></td>
         </tr>
         <tr class="capital-felony">
             <td>P.C. 1102</td>
             <td>Cannibalism</td>
             <td>HUT</td>
-            <td>None</td>
+            <td>N/A</td>
             <td>Any person who knowingly and willingly consumes human flesh, or who coerces another person to eat human flesh through deception, threats, or force.</td>
+            <td></td>
         </tr>
         <tr class="capital-felony">
             <td>P.C. 1103</td>
             <td>Mayhem</td>
-            <td>2-3 Years</td>
+            <td>2-3 Year(s)</td>
             <td>$300</td>
-            <td>Any violent behavior or act committed within a Town, City, or Native Reservation, depriving citizens of Monroe of life on a mass scale or causing a reasonably expected outcome.</td>
+            <td>Any violent behavior or act committed within the confines of a Town, City, or Native Reservation and deprives citizens of Monroe of life on a mass scale or an act which can be reasonably expected to have caused such an outcome. Examples: - Throwing dynamite in the middle of town. - Acts of intentional violence against the general citizenry of the town and not a specific group. (Don't include someone accidently caught in crossfire)</td>
+            <td>This charge must be authorized by (1) of the following: the Chief Justice, A Judge, the Sheriff or Undersheriff of the Monroe Sheriff's Office or the Chief / Deputy chief Marshal of the State of Monroe</td>
         </tr>
+        <tr class="capital-felony">
+            <td>P.C. 1104</td>
+            <td>Insurrection</td>
+            <td>7 Years</td>
+            <td>$300</td>
+            <td>Any attempt at a violent uprising against the government of the State of Monroe or the United States of America.</td>
+            <td>This Charge must be authorized by (1) of the following: the Chief Justice, A Judge, the Sheriff or Undersheriff of the Monroe Sheriff's Office or the Chief / Deputy chief Marshal of the State of Monroe</td>
+        </tr>
+        <tr class="capital-felony">
+            <td>P.C. 1105</td>
+            <td>Torture</td>
+            <td>3 Years</td>
+            <td>N/A</td>
+            <td>No person shall act with intent or willful negligence to inflict severe physical or mental pain or suffering upon another person within his custody or physical control without a lawful reason to do so. No person shall engage in an act or behavior designed or intended to deprive a citizen of Monroe of their bodily functions or appendages in a malicious manner, including the rending useless of the aforementioned.</td>
+            <td>This is the maximum, to be used in the most severe instances of torture. Please take the extent of the torture into account and adjust the time accordingly. Body part gone = Max Time.</td>
         <!-- State Felonies - First Degree Header -->
         <tr>
             <td colspan="5" class="state-felony-first-degree "><strong>State Felony Charges - First Degree</strong></td>

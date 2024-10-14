@@ -591,7 +591,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>Decided by a Judge. This status adds 60 days to overall sentence.</td>
         </tr>
          <tr>
-            <td colspan="6" class="capital-felony" style="text-align: center;"><strong>Illegal Items</strong></td>
+            <td colspan="2" class="capital-felony" style="text-align: center;"><strong>Illegal Items</strong></td>
         </tr>
         <tr>
         <td>"Outright Illegal:
@@ -606,7 +606,8 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
 - Repeating, Semi Auto, and Pump Action Shotguns
 - Guns Lacking a Serial Number (Exceptions made for antiques such as Volcanic Pistols)
 - Brass Knuckles
-
+        </tr>
+        <tr>
 Potentially Illegal:
 - Phenacetin in quantities of more than 2 (Doctors can carry more)
 - Laudanum without a prescription

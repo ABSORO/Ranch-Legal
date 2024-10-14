@@ -544,7 +544,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
         </tr>
         <!-- Modifiers Header -->
         <tr>
-            <td colspan="5" class="modifier"><strong>Modifiers</strong></td>
+            <td colspan="6" class="modifier"><strong>Modifiers</strong></td>
         </tr>
         <tr class="modifier">
             <td>Modifier</td>

@@ -1,4 +1,5 @@
-remote_theme: just-the-docs/just-the-docs
+# Custom theme setup
+# Removed remote_theme to use local theme configuration
 
 title: "Ranch Legal"
 description: "Legal resources for Ranch Roleplay"
@@ -11,4 +12,22 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# Remove any color_scheme specification if present
+# Custom theme settings
+theme:
+  name: custom-theme
+  navigation:
+    structure: collapsible
+    visibility: always-visible
+  search:
+    enabled: true
+    display_location: top
+
+# Color and Font Settings
+colors:
+  background: "#F9F9F9"  # Soft light background to be easy on the eyes
+  text: "#000000"        # Black text for readability
+  link: "#007ACC"        # Professional blue for links
+
+font:
+  family: "Arial, sans-serif"  # Professional sans-serif font
+  size: "1rem"                 # Similar size to GitHub for readability

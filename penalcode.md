@@ -297,22 +297,96 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>This is to be used for armed robberies of other players. If possessions are taken at a value at or greater than $200 a charge of Grand Theft can be applied in addition to it.</td>
         </tr>
         <!-- Misdemeanors Header -->
-        <tr>
-            <td colspan="5" class="misdemeanor"><strong>Misdemeanors</strong></td>
+       <tr>
+            <td colspan="6" class="misdemeanor-first-degree"><strong>Misdemeanor Charges - First Degree</strong></td>
         </tr>
-        <tr class="misdemeanor">
-            <td>Misdemeanor</td>
+        <tr class="misdemeanor-first-degree">
+            <td>P.C. 3101</td>
             <td>Battery</td>
             <td>30 Days</td>
             <td>$20</td>
-            <td>Unlawful application of force directly or indirectly upon another person, causing bodily injury or offensive contact.</td>
+            <td>Any person who partakes in the unlawful application of force directly or indirectly upon another person, causing bodily injury or offensive contact is guilty of Battery. No person shall touch or strike another person without their permission. In order for Battery to be charged, a victim needs to be willing to press charges. If no victim exists, no charge can be brought.</td>
+            <td>Held locally.</td>
         </tr>
-        <tr class="misdemeanor">
-            <td>Misdemeanor</td>
+        <tr class="misdemeanor-first-degree">
+            <td>P.C. 3102</td>
+            <td>Criminal Threats</td>
+            <td>20 Days</td>
+            <td>$10</td>
+            <td>A person who without lawful excuse makes to another a threat, intending that that other would fear it would be carried out, to kill or harm that other.</td>
+            <td>In the case where a threat is made against a group, only one charge will be presented. Use good judgement with this charge. Don't just throw it on over minor things.</td>
+        </tr>
+        <tr class="misdemeanor-first-degree">
+            <td>P.C. 3103</td>
             <td>False Impersonation</td>
             <td>60 Days</td>
             <td>$50</td>
-            <td>Deliberately causing another to believe they hold a position of a public servant in any capacity.</td>
+            <td>No person shall, without lawful authority, deliberately cause another to believe he or she holds a position of a public servant in any capacity. No person shall represent themselves in a fraudulent manner, causing others to identify or recognize them as someone or something they are not in order to receive some benefit or cause damages.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor-first-degree">
+            <td>P.C. 3104</td>
+            <td>False Report of a Crime</td>
+            <td>120 Days</td>
+            <td>$80</td>
+            <td>No person shall knowingly or maliciously falsify the report of a crime, or the commission of a crime to law enforcement.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor-first-degree">
+            <td>P.C. 3105</td>
+            <td>Evading a Law Enforcement Officer</td>
+            <td>30 Days</td>
+            <td>$40</td>
+            <td>Evading or attempting to evade or elude any Law Enforcement Officer acting within their duties or other circumstances which would require a person to stop.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor-first-degree">
+            <td>P.C. 3106</td>
+            <td>Forgery</td>
+            <td>60 Days</td>
+            <td>$100</td>
+            <td>No person shall falsify, alter, counterfeit, or forge a document that is recognized as legally binding with the intent to damage or defraud another person or entity and their reputation.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor-first-degree">
+            <td>P.C. 3107</td>
+            <td>Predatory Lending</td>
+            <td>60 Days</td>
+            <td>$150</td>
+            <td>The act of taking advantage of a borrower by failing to disclose information, disclosing false information or enacting high interest rates or fees with the goal of defaulting the debtor, or making the debt held thereby unpayable.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor-first-degree">
+            <td>P.C. 3108</td>
+            <td>Bribery</td>
+            <td>60 Days</td>
+            <td>$60</td>
+            <td>No person shall unlawfully offer, give, solicit, or receive of any item of value as a means of influencing the actions of an individual holding a public or legal duty.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor-first-degree">
+            <td>P.C. 3109</td>
+            <td>Blackmail</td>
+            <td>120 Days</td>
+            <td>$80</td>
+            <td>Demanding payment or benefit from a person in return for not revealing compromising, or otherwise damaging information about them or somebody else.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor-first-degree">
+            <td>P.C. 3110</td>
+            <td>Resisting Arrest</td>
+            <td>40 Days</td>
+            <td>$40</td>
+            <td>No person shall partake in the intentional interference with, opposition or resistance to, or obstruction of an individual acting in his official capacity and authorized by law to make a lawful arrest or lawful detention and knows or has reason to know that the person arresting or detaining is acting in his official capacity.</td>
+            <td></td>
+        </tr>
+        <tr class="misdemeanor-first-degree">
+            <td>P.C. 3111</td>
+            <td>Contempt of Court</td>
+            <td>HUT</td>
+            <td>N/A</td>
+            <td>No person shall willfully, or by act of omission, disobey or obstruct an order of the court, or the written judgement of a Judge or Justice of the Peace, or cause any kind of disturbance or obstruction to proceedings of a court.</td>
+            <td>Imposed by a Judge</td>
         </tr>
         <!-- Non-Criminal Infractions Header -->
         <tr>

@@ -191,3 +191,46 @@ table {
     font-size: 0.5em;
     padding: 10px 0;
 }
+
+// Illegal Items Table
+.illegal-items-header {
+    background-color: #4d4d4d;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.illegal-column {
+    vertical-align: top;
+    padding: 10px;
+}
+
+.illegal-column h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #e6e6e6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.illegal-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.illegal-column li {
+    background-color: #f2f2f2;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    .illegal-column {
+        display: block;
+        width: 100%;
+    }
+}

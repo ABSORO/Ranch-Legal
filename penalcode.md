@@ -3,6 +3,7 @@ title: "Penal Code"
 nav_order: 3
 ---
 
+<div class="main-content-wrap main-content-wrapper">
 <div class="notes-section" markdown="1">
 ## Notes
 
@@ -623,5 +624,5 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             </td>
         </tr>
     </tbody>
-
+</div>
         

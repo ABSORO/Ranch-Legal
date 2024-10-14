@@ -590,7 +590,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>Decided by a Judge. This status adds 60 days to overall sentence.</td>
         </tr>
        <thead>
-    <table id="illegal-items-table" class="penal-code-table"><strong>Illegal Items</strong>
+    <table id="illegal-items-table" class="penal-code-table" style="text-align: center;"><strong>Illegal Items</strong>
     <tbody>
         <tr>
             <td class="illegal-column">

@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State of Monroe Legal Resources</title>
     <link rel="stylesheet" href="assets/css/custom.css">
-    <title>{{ PAGE_TITLE }}</title>
 </head>
 <body>
     <header>
         <h1>State of Monroe Legal Resources</h1>
-        <!-- Add your search bar and header content here -->
+        <!-- Search bar could go here -->
+        <input type="text" id="searchBar" placeholder="Search...">
     </header>
     <div class="layout">
         <nav class="left-panel">
-            <!-- Left panel navigation links -->
+            <!-- Collapsible Navigation Links -->
             <button class="collapsible">Constitution</button>
             <div class="collapsible-content">
                 <a href="constitution.html">Full Constitution</a>
@@ -21,6 +22,10 @@
             <button class="collapsible">Penal Code</button>
             <div class="collapsible-content">
                 <a href="penalcode.html">Penal Code Overview</a>
+            </div>
+            <button class="collapsible">Time and Fine Calculator</button>
+            <div class="collapsible-content">
+                <a href="timecalc.html">Calculator</a>
             </div>
         </nav>
         <main class="content">

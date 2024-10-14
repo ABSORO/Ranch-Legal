@@ -217,9 +217,9 @@ li {
 }
 
 .illegal-column {
-  vertical-align: top;
-  padding: 10px;
-  width: 50%;
+    vertical-align: top;
+    padding: 20px;
+    width: 100%; // Changed from 50% to 100%
 }
 
 .illegal-column h3 {
@@ -231,8 +231,8 @@ li {
 }
 
 .illegal-list div {
-  padding: 5px;
-  margin-bottom: 2px;
+    padding: 10px;
+    margin-bottom: 5px;
 }
 
 .illegal-list div:nth-child(odd) {
@@ -243,11 +243,13 @@ li {
   background-color: #ffffff;
 }
 
-@media (max-width: 800px) {
-  .penal-code-table {
-    font-size: 12px;
-  }
-  
+// Adjust the layout for larger screens
+@media (min-width: 768px) {
+    .illegal-column {
+        display: inline-block;
+        width: 50%;
+    }
+}
   .penal-code-table th,
   .penal-code-table td {
     padding: 5px;

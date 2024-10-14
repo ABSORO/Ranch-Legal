@@ -298,7 +298,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
         </tr>
         <!-- Misdemeanors Header -->
        <tr>
-            <td colspan="6" class=".misdemeanor"><strong>Misdemeanor Charges - First Degree</strong></td>
+            <td colspan="6" class="misdemeanor"><strong>Misdemeanor Charges - First Degree</strong></td>
         </tr>
         <tr class="misdemeanor-first-degree">
             <td>P.C. 3101</td>

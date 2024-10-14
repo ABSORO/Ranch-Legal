@@ -1,11 +1,6 @@
 ---
-title: "Time Calculator"
-nav_order: 4
----
-
----
 layout: default
-title: Time and Fine Calculator
+title: Time & Fine Calculator
 nav_order: 4
 ---
 

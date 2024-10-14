@@ -461,13 +461,59 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>$25</td>
             <td>No person shall steal the horse of another individual. This includes horses attached to a stolen wagon.</td>
             <td>To be used when players steal a horse or wagon.</td>
-        </tr>
-        
+        </tr>        
         <!-- Third Degree -->
         <tr>
             <td colspan="6" class="misdemeanor"><strong>Third Degree</strong></td>
         </tr>
-        
+                <tr class="misdemeanor">
+            <td>P.C. 3301</td>
+            <td>Failure to Pay a Fine</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>No person shall fail to pay a fine(s) within fourteen days of it being issued to them.</td>
+            <td>Persons who fail to pay a fine within 14 days of the fine being issued to them are subject to have their items confiscated/held as collateral until they pay their fine. This must be ordered by a Judge in good standing within Monroe.</td>
+        </tr>
+                <tr class="misdemeanor">
+            <td>P.C. 3302</td>
+            <td>Failure to Identify</td>
+            <td>0 Days</td>
+            <td>$20</td>
+            <td>No person shall any person refuse to truthfully identify themselves to a member of law enforcement whilst being detained or when in custody.</td>
+            <td></td>
+        </tr>
+                <tr class="misdemeanor">
+            <td>P.C. 3303</td>
+            <td>Disturbing the Peace</td>
+            <td>30 Days</td>
+            <td>$10</td>
+            <td>No person shall take part in conduct severe enough to cause alarm to ordinary people or threaten serious disturbance to the community, nor shall they take part in unsanctioned fighting, or challenge another person to a fight.</td>
+            <td>This can include violence against domesticated animals around town.</td>
+        </tr>
+                <tr class="misdemeanor">
+            <td>P.C. 3304</td>
+            <td>Vandalism</td>
+            <td>30 Days</td>
+            <td>$30</td>
+            <td>No person, without lawful reason, shall destroy or damage any property belonging to another, intending to destroy or damage any such property or being reckless as to whether any such property would be destroyed or damaged.</td>
+            <td></td>
+        </tr>
+                <tr class="misdemeanor">
+            <td>P.C. 3305</td>
+            <td>Poaching</td>
+            <td>30 Days</td>
+            <td>$20</td>
+            <td>No person shall partake in the activity or sport of chasing or searching for rare and/or protected animals with the intention of killing or catching them.</td>
+            <td>For use with Bison, Bald Eagles</td>
+        </tr>
+                <tr class="misdemeanor">
+            <td>P.C. 3306</td>
+            <td>Trespassing</td>
+            <td>20 Days</td>
+            <td>$20</td>
+            <td>No person shall enter or remain on the property of another person, or any restricted area, without consent.</td>
+            <td></td>
+        </tr>
         <!-- Non-Criminal Infractions Header -->
         <tr>
             <td colspan="5" class="non-criminal-infraction"><strong>Non-Criminal Infractions</strong></td>

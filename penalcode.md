@@ -300,8 +300,11 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>This is to be used for armed robberies of other players. If possessions are taken at a value at or greater than $200 a charge of Grand Theft can be applied in addition to it.</td>
         </tr>
         <!-- Misdemeanors Header -->
+        <tr>
+        <td colspan="6" class="capital-felony" style="text-align: center;"><strong>Misdemeanor Charges</strong></td>
+        </tr>
        <tr>
-            <td colspan="6" class="misdemeanor"><strong>Misdemeanor Charges - First Degree</strong></td>
+            <td colspan="6" class="misdemeanor"><strong>First Degree</strong></td>
         </tr>
         <tr class="misdemeanor-first-degree">
             <td>P.C. 3101</td>

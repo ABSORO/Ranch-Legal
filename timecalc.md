@@ -28,6 +28,9 @@ Please select charges to begin calculating your total sentencing time and fines.
     <div id="dropdown-content"></div>
   </div>
   <div id="selectedCharges"></div>
+  <div id="modifiers">
+  <h3>Modifiers:</h3>
+</div>
   <div id="totalSentence"></div>
   <div id="totalFine"></div>
   <button id="clearButton">Clear Selection</button>
@@ -134,6 +137,11 @@ function filterCharges() {
   });
 }
 
+function toggleDropdown() {
+  const dropdownContent = document.getElementById('dropdown-content');
+  dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+}
+
 function addCharge(charge) {
   selectedCharges.push(charge);
   updateSelectedCharges();
@@ -149,6 +157,17 @@ function updateSelectedCharges() {
     const chargeDiv = document.createElement('div');
     chargeDiv.innerHTML = `${charge.code} - ${charge.name} (${charge.maxTime} ${charge.timeUnit}, $${charge.maxFine})`;
     selectedDiv.appendChild(chargeDiv);
+  });
+}
+
+function displayModifiers() {
+  const modifiersDiv = document.getElementById('modifiers');
+  penalCodeModifiers.forEach(modifier => {
+    const modifierDiv = document.createElement('div');
+    modifierDiv.innerHTML = `<input type="checkbox" id="${modifier.code}" name="${modifier.code}">
+                             <label for="${modifier.code}">${modifier.name}</label>`;
+    modifierDiv.querySelector('input').addEventListener('change', calculateTotal);
+    modifiersDiv.appendChild(modifierDiv);
   });
 }
 
@@ -168,6 +187,27 @@ function calculateTotal() {
     totalFine += parseInt(charge.maxFine) || 0;
   });
 
+  // Apply modifiers
+  penalCodeModifiers.forEach(modifier => {
+    const isChecked = document.getElementById(modifier.code).checked;
+    if (isChecked) {
+      if (modifier.timeModifier) {
+        totalDays *= (1 + modifier.timeModifier);
+        totalYears *= (1 + modifier.timeModifier);
+      }
+      if (modifier.additionalTime) {
+        if (modifier.timeUnit === 'days') {
+          totalDays += modifier.additionalTime;
+        } else if (modifier.timeUnit === 'years') {
+          totalYears += modifier.additionalTime;
+        }
+      }
+      if (modifier.fineModifier) {
+        totalFine *= (1 + modifier.fineModifier);
+      }
+    }
+  });
+
   // Convert days to years if necessary
   if (totalDays >= 401) {
     totalYears += Math.floor((totalDays - 301) / 100);
@@ -176,13 +216,13 @@ function calculateTotal() {
 
   // Display results
   const sentenceDiv = document.getElementById('totalSentence');
-  sentenceDiv.innerHTML = `Total Time: ${totalYears > 0 ? totalYears + ' Years' : ''} ${totalDays > 0 ? totalDays + ' Days' : ''}`.trim();
+  sentenceDiv.innerHTML = `Total Time: ${totalYears > 0 ? Math.round(totalYears) + ' Years' : ''} ${totalDays > 0 ? Math.round(totalDays) + ' Days' : ''}`.trim();
   if (selectedCharges.some(charge => charge.maxTime === 'HUT')) {
     sentenceDiv.innerHTML += ' (HUT)';
   }
   
   const fineDiv = document.getElementById('totalFine');
-  fineDiv.innerHTML = `Total Fine: $${totalFine}`;
+  fineDiv.innerHTML = `Total Fine: $${Math.round(totalFine)}`;
 }
 
 function clearSelection() {
@@ -195,6 +235,8 @@ function clearSelection() {
 
 // Event listeners
 document.getElementById('search').addEventListener('input', filterCharges);
+document.getElementById('search').addEventListener('focus', toggleDropdown);
+document.getElementById('search').addEventListener('blur', () => setTimeout(toggleDropdown, 200));
 document.getElementById('clearButton').addEventListener('click', clearSelection);
 
 // Initialize the dropdown
@@ -228,6 +270,7 @@ function applyStyles() {
 // Call this function after the page loads
 window.onload = function() {
   populateDropdown();
+  displayModifiers();
   applyStyles();
 };
 </script>
@@ -264,6 +307,8 @@ window.onload = function() {
   z-index: 1;
   max-height: 200px;
   overflow-y: auto;
+  top: 100%;
+  left: 0;
 }
 
 .dropdown-item {
@@ -276,10 +321,6 @@ window.onload = function() {
 
 .dropdown-item:hover {
   background-color: #f1f1f1;
-}
-
-#search:focus + #dropdown-content {
-  display: block;
 }
 
 #selectedCharges, #totalSentence, #totalFine {

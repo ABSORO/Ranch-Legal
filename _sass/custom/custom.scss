@@ -306,3 +306,18 @@ li {
     text-align: center;
 }
 }
+.main-content-wrapper {
+  padding-left: 5px !important;
+}
+
+@media (max-width: 66.5rem) {
+  .main-content-wrapper {
+    padding-left: 5px !important;
+  }
+}
+
+@media (max-width: 50rem) {
+  .main-content-wrapper {
+    padding-left: 0 !important;
+  }
+}

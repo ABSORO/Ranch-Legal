@@ -591,7 +591,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
         </tr>
        <thead>
  <tr>
-            <th colspan="2" class="illegal-items-header">Illegal Items</th>
+            <th colspan="6" class="illegal-items-header">Illegal Items</th>
         </tr>
     </thead>
     <tbody>

@@ -589,13 +589,15 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>Those who commit three(3) or more public order arrests within a seven(7) day period may be considered as a candidate for the status of Public Nuisance Offender. This status will stay active for a period of no more than 30 days.</td>
             <td>Decided by a Judge. This status adds 60 days to overall sentence.</td>
         </tr>
+       <table class="penal-code-table">
+    <thead>
         <tr>
-            <th colspan="6" class="illegal-items-header" style="text-align: center;">Illegal Items</th>
+            <th colspan="2" class="illegal-items-header">Illegal Items</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td colspan="3" class="illegal-column">
+            <td class="illegal-column">
                 <h3>Outright Illegal</h3>
                 <ul>
                     <li>Dried Hemp (Mota)</li>
@@ -611,7 +613,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
                     <li>Brass Knuckles</li>
                 </ul>
             </td>
-            <td colspan="3" class="illegal-column">
+            <td class="illegal-column">
                 <h3>Potentially Illegal</h3>
                 <ul>
                     <li>Phenacetin in quantities of more than 2 (Doctors can carry more)</li>
@@ -623,5 +625,6 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
                 </ul>
             </td>
         </tr>
-
+    </tbody>
+</table>
         

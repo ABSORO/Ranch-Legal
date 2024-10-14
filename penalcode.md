@@ -35,7 +35,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
     <tbody>
         <!-- Capital Felonies Header -->
         <tr>
-            <td colspan="6" class="capital-felony"><strong>Capital Felony Charges</strong></td>
+            <td colspan="6" class="capital-felony" style="text-align: center;"><strong>Capital Felony Charges</strong></td>
         </tr>
         <tr class="capital-felony">
             <td>P.C. 1101</td>
@@ -78,7 +78,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>This is the maximum, to be used in the most severe instances of torture. Please take the extent of the torture into account and adjust the time accordingly. Body part gone = Max Time.</td>
         <!-- State Felonies - First Degree Header -->
  <tr>
-            <td colspan="6" class="state-felony-first-degree"><strong>State Felony Charges</strong></td>
+            <td colspan="6" class="capital-felony" style="text-align: center;"><strong>State Felony Charges</strong></td>
         </tr>
          <tr>
             <td colspan="6" class="state-felony-first-degree"><strong>First Degree</strong></td>

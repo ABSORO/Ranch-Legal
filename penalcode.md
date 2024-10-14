@@ -590,38 +590,38 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>Decided by a Judge. This status adds 60 days to overall sentence.</td>
         </tr>
        <thead>
-        <tr>
-            <th colspan="6" class="illegal-items-header">Illegal Items</th>
+ <tr>
+            <th colspan="2" class="illegal-items-header">Illegal Items</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td class="illegal-column">
                 <h3>Outright Illegal</h3>
-                <ul>
-                    <li>Dried Hemp (Mota)</li>
-                    <li>Marked Bills</li>
-                    <li>Lockpicks</li>
-                    <li>Illegal Alcohol (Moonshine)</li>
-                    <li>Cocaine</li>
-                    <li>Opium</li>
-                    <li>Peyote (After Processing)</li>
-                    <li>Heroin</li>
-                    <li>Repeating, Semi Auto, and Pump Action Shotguns</li>
-                    <li>Guns Lacking a Serial Number (Exceptions made for antiques such as Volcanic Pistols)</li>
-                    <li>Brass Knuckles</li>
-                </ul>
+                <div class="illegal-list">
+                    <div>Dried Hemp (Mota)</div>
+                    <div>Marked Bills</div>
+                    <div>Lockpicks</div>
+                    <div>Illegal Alcohol (Moonshine)</div>
+                    <div>Cocaine</div>
+                    <div>Opium</div>
+                    <div>Peyote (After Processing)</div>
+                    <div>Heroin</div>
+                    <div>Repeating, Semi Auto, and Pump Action Shotguns</div>
+                    <div>Guns Lacking a Serial Number (Exceptions made for antiques such as Volcanic Pistols)</div>
+                    <div>Brass Knuckles</div>
+                </div>
             </td>
             <td class="illegal-column">
                 <h3>Potentially Illegal</h3>
-                <ul>
-                    <li>Phenacetin in quantities of more than 2 (Doctors can carry more)</li>
-                    <li>Laudanum without a prescription</li>
-                    <li>Morphine without a prescription</li>
-                    <li>Handcuffs if used in a crime</li>
-                    <li>Drug Paraphernalia (pipes, metal trays, drying racks, etc.) if it can be shown they were used illegally</li>
-                    <li>Metal File if shown to have been used to illegally modify a weapon</li>
-                </ul>
+                <div class="illegal-list">
+                    <div>Phenacetin in quantities of more than 2 (Doctors can carry more)</div>
+                    <div>Laudanum without a prescription</div>
+                    <div>Morphine without a prescription</div>
+                    <div>Handcuffs if used in a crime</div>
+                    <div>Drug Paraphernalia (pipes, metal trays, drying racks, etc.) if it can be shown they were used illegally</div>
+                    <div>Metal File if shown to have been used to illegally modify a weapon</div>
+                </div>
             </td>
         </tr>
     </tbody>

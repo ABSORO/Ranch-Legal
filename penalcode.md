@@ -94,6 +94,10 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>$100</td>
             <td>Unintentionally causing the death of an individual through an act that was neither excusable nor justified without malicious aforethought.</td>
         </tr>
+        <!-- State Felonies - Second Degree Header -->
+            <tr>
+            <td colspan="5" class="state-felony-third-degree"><strong>State Felony Charges - Third Degree</strong></td>
+            </tr>
         <!-- Misdemeanors Header -->
         <tr>
             <td colspan="5" class="misdemeanor"><strong>Misdemeanors</strong></td>

@@ -593,29 +593,39 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
          <tr>
             <td colspan="2" class="capital-felony" style="text-align: center;"><strong>Illegal Items</strong></td>
         </tr>
-        <tr>
-        <td>"Outright Illegal:
-- Dried Hemp (Mota)
-- Marked Bills
-- Lockpicks
-- Illegal Alcohol (Moonshine)
-- Cocaine
-- Opium
-- Peyote (After Processing)
-- Heroin
-- Repeating, Semi Auto, and Pump Action Shotguns
-- Guns Lacking a Serial Number (Exceptions made for antiques such as Volcanic Pistols)
-- Brass Knuckles
+<tr>
+            <th colspan="6" class="illegal-items-header">Illegal Items</th>
         </tr>
+    </thead>
+    <tbody>
         <tr>
-Potentially Illegal:
-- Phenacetin in quantities of more than 2 (Doctors can carry more)
-- Laudanum without a prescription
-- Morphine without a prescription
-- Handcuffs if used in a crime
-- Drug Paraphernalia (pipes, metal trays, drying racks, etc.) if it can be shown they were used illegally
-- Metal File if shown to have been used to illegally modify a weapon"
-- </td>
+            <td colspan="3" class="illegal-column">
+                <h3>Outright Illegal</h3>
+                <ul>
+                    <li>Dried Hemp (Mota)</li>
+                    <li>Marked Bills</li>
+                    <li>Lockpicks</li>
+                    <li>Illegal Alcohol (Moonshine)</li>
+                    <li>Cocaine</li>
+                    <li>Opium</li>
+                    <li>Peyote (After Processing)</li>
+                    <li>Heroin</li>
+                    <li>Repeating, Semi Auto, and Pump Action Shotguns</li>
+                    <li>Guns Lacking a Serial Number (Exceptions made for antiques such as Volcanic Pistols)</li>
+                    <li>Brass Knuckles</li>
+                </ul>
+            </td>
+            <td colspan="3" class="illegal-column">
+                <h3>Potentially Illegal</h3>
+                <ul>
+                    <li>Phenacetin in quantities of more than 2 (Doctors can carry more)</li>
+                    <li>Laudanum without a prescription</li>
+                    <li>Morphine without a prescription</li>
+                    <li>Handcuffs if used in a crime</li>
+                    <li>Drug Paraphernalia (pipes, metal trays, drying racks, etc.) if it can be shown they were used illegally</li>
+                    <li>Metal File if shown to have been used to illegally modify a weapon</li>
+                </ul>
+            </td>
         </tr>
 
         

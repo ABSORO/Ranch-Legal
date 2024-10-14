@@ -177,3 +177,14 @@ table {
     font-size: 10px !important;
   }
 }
+
+.penal-code-table tr[class$="-degree"] td,
+.penal-code-table tr[class="capital-felony"] td,
+.penal-code-table tr[class="misdemeanor"] td,
+.penal-code-table tr[class="non-criminal-infraction"] td,
+.penal-code-table tr[class="modifier"] td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px 0;
+}

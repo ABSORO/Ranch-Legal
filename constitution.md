@@ -3,8 +3,9 @@ title: "Constitution"
 nav_order: 2
 ---
 
-
-<span style="font-family: 'Georgia', serif; font-size: 24px; font-weight: bold; text-transform: uppercase;">Constitution of the State of Monroe</span>
+<div style="text-align: center; margin-bottom: 20px;">
+  <span style="font-family: 'Georgia', serif; font-size: 36px; font-weight: bold; text-transform: uppercase;">Constitution of the State of Monroe</span>
+</div>
 
 <hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
 

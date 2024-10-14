@@ -3,8 +3,10 @@ title: "Constitution"
 nav_order: 2
 ---
 
-<div class="constitution-title">
-  <span class="constitution-heading">Constitution of the State of Monroe</span>
+<div class="constitution-title" markdown="1">
+
+# Constitution of the State of Monroe
+
 </div>
 
 <hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">

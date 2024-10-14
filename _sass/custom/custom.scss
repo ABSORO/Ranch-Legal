@@ -136,7 +136,7 @@ li {
   margin-bottom: 20px;
   font-family: Arial, sans-serif;
   table-layout: fixed;
-  font-color: black;
+  font-color: black !important;
 
   th, td {
     border: 1px solid #666;
@@ -213,7 +213,7 @@ li {
   font-weight: bold;
   font-size: 1.2em;
   padding: 10px;
-  font-color: black;
+  font-color: black !important;
 }
 
 .illegal-column {

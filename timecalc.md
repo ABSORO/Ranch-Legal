@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Time & Fine Calculator
 nav_order: 4
 ---

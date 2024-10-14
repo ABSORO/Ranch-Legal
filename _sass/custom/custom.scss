@@ -261,7 +261,7 @@ li {
   
   .illegal-column {
     display: block;
-    width: 100%;
+    width: 100% !important;
   }
   .illegal-items-title {
     font-size: 1.5em;

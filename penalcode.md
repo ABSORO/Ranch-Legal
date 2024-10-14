@@ -589,8 +589,8 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>Those who commit three(3) or more public order arrests within a seven(7) day period may be considered as a candidate for the status of Public Nuisance Offender. This status will stay active for a period of no more than 30 days.</td>
             <td>Decided by a Judge. This status adds 60 days to overall sentence.</td>
         </tr>
-       <thead>
-           
+    </tbody>
+</table>  
 <table id="illegal-items-table" class="illegal-items-title" style="text-align: center;"><strong>Illegal Items</strong>
     <tbody>
         <tr>

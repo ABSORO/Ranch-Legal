@@ -519,18 +519,28 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td colspan="5" class="non-criminal-infraction"><strong>Non-Criminal Infractions</strong></td>
         </tr>
         <tr class="non-criminal-infraction">
-            <td>Non-Criminal Infraction</td>
+            <td>P.C. 4101</td>
             <td>Excessive Speeds</td>
-            <td>None</td>
+            <td>N/A</td>
             <td>$10</td>
-            <td>No person shall travel on horseback or operate a wagon at speeds greater than a trot in a city, town, or settlement.</td>
+            <td>No person shall travel while on horseback or operating a wagon at speeds greater than a trot while in a city, town or settlement.</td>
+            <td></td>
         </tr>
         <tr class="non-criminal-infraction">
-            <td>Non-Criminal Infraction</td>
+            <td>P.C. 4102</td>
             <td>Brandishing a Weapon</td>
-            <td>None</td>
+            <td>N/A</td>
             <td>$10</td>
-            <td>No person shall, without lawful reason, wave or flourish a weapon as a threat, in anger, or in excitement.</td>
+            <td>No person shall, without lawful reason, wave or flourish a weapon as a threat or in anger or in excitement. No person shall unholster or display a firearm while located within the confines of a Town, City, or Settlement within the State of Monroe. A person MAY carry a longarm down beside them and is not required under this law to have that weapon slung on their back.</td>
+            <td></td>
+        </tr>
+        <tr class="non-criminal-infraction">
+            <td>P.C. 4103</td>
+            <td>Covering the Face</td>
+            <td>N/A</td>
+            <td>$10</td>
+            <td>No person shall wear any kind of mask, bandana or facial covering within a town or city, with exception of those who may provide bonafide medical documentation supporting a cause for such.</td>
+            <td></td>
         </tr>
         <!-- Modifiers Header -->
         <tr>

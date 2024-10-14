@@ -546,18 +546,48 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
         <tr>
             <td colspan="6" class="modifier"><strong>Modifiers</strong></td>
         </tr>
-        <tr class="modifier">
-            <td>Modifier</td>
+         <tr class="modifier">
+            <td>P.C. 5101</td>
             <td>Aiding and Abetting</td>
-            <td>50% of primary offense time</td>
-            <td>Varies based on primary offense</td>
-            <td>No person shall command, aid, abet, or advise another in the commission or conspiracy to commit a crime.</td>
+            <td>50% of time</td>
+            <td>N/A</td>
+            <td>No person shall: 
+                <br>-Command, aid, abet, or advise another in the commission or conspiracy to commit a crime
+                <br>-Knowingly assist someone after he or she has committed any crime by helping them evade arrest, trial, conviction or punishment 
+                <br>-With the intent to take part in conduct constituting a crime that is to be performed or, agree with one or more persons to engage in or cause the performance of a crime
+                <br>-Harbour a wanted individual</td>
+            <td>Consists of Aiding and Abetting, Conspiracy, and Accessory After the Fact</td>
         </tr>
         <tr class="modifier">
-            <td>Modifier</td>
-            <td>Public Servant Enhancement</td>
+            <td>P.C. 5102</td>
+            <td>Public Servants Enhancement</td>
             <td>60 Days</td>
-            <td>None</td>
-            <td>Persons charged with crimes against public servants while in the commission of their duties shall have their sentence increased.</td>
+            <td>N/A</td>
+            <td>Persons charged with crimes that are against those who are public servants whilst in the commission of their duties shall have their sentenced increased.</td>
+            <td>USE ONLY IN FELONY CRIMES. Public Servant Refers to; Law Enforcement, Government and Doctors. Shall not apply to Capital Murder</td>
+        </tr>
+        <tr class="modifier">
+            <td>P.C. 5103</td>
+            <td>Threat to Society</td>
+            <td>3 Years</td>
+            <td>N/A</td>
+            <td>Those who commit ten(10) or more violent felonies within a twenty-eight(28) day period may be considered as a candidate for the status of Threat to Society. USMS Leadership or MSO Command may petition the court at any time to have someone established as a threat to society but must demonstrate the person is either associated with a criminal organization and has acted with that criminal organization on three separate occasions involving acts of violence or that a person has utilized a weapon designed to explode or ignite upon impact while in a town, village, or city. Any person convicted of Mayhem shall automatically be considered a Threat to Society. This classification will last for no longer than 30 days.</td>
+            <td>Decided by Judge. This status adds 3 years (3 OOC days) to overall sentence.</td>
+        </tr>
+        <tr class="modifier">
+            <td>P.C. 5104</td>
+            <td>Habitual Offender</td>
+            <td>100 Days</td>
+            <td>N/A</td>
+            <td>Those who commit six(6) or more violent felonies within a fourteen (14) day period may be considered as a candidate for the status of Habitual Offender. This status will stay active for a period of no more than 30 days.</td>
+            <td>Decided by Judge. This status adds 100 days to overall sentence.</td>
+        </tr>
+        <tr class="modifier">
+            <td>P.C. 5105</td>
+            <td>Public Nuisance Offender</td>
+            <td>60 Days</td>
+            <td>N/A</td>
+            <td>Those who commit three(3) or more public order arrests within a seven(7) day period may be considered as a candidate for the status of Public Nuisance Offender. This status will stay active for a period of no more than 30 days.</td>
+            <td>Decided by a Judge. This status adds 60 days to overall sentence.</td>
         </tr>
 

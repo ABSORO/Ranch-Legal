@@ -1,36 +1,60 @@
----
-title: "Home"
-nav_order: 1
----
-
-## State of Monroe Legal Resources
-
-Welcome to the unofficial resource hub for all things related to Ranch Roleplay's State of Monroe legal system. This site is designed for everyone involved in the roleplay community, including:
-
-- Lawmen
-- Judges
-- Lawyers
-- Citizens
-
-### About this Site
-
-Here, you can access the official Constitution, Penal Code, legal procedures, and other essential documents that govern the State of Monroe. Our goal is to provide a clear, simple, and easy-to-navigate platform that ensures everyone in the community can find **accurate legal information** and reference in-character documents.
-
-> **Note**: Only the legal documents and case laws provided on this site are considered **official and canon** to the server's lore. Documents not provided by Ranch Roleplay management should not be referenced in-character.
-
-### Resources Available
-
-- **Constitution**: Foundational laws of the State of Monroe.
-- **Penal Code**: List of crimes and their punishments.
-- **Procedures**: Guidelines for how law enforcement and legal processes should function.
-- **Additional Resources**: Other documents to support legal roleplay.
-
-Please select a topic from the navigation menu to begin exploring our legal resources.
-
-### Community Engagement
-
-If you have any questions or need assistance, reach out to the appropriate in-character authorities or join our community Discord for support:
-
-[Join the Ranch Roleplay Community on Discord](https://discord.com/invite/Sc3Ur4Uxpp)
-
-<script src="assets/js/collapsible_panel_script.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index - State of Monroe Legal Resources</title>
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <header>
+        <h1>State of Monroe Legal Resources</h1>
+        <input type="text" id="searchBar" placeholder="Search...">
+    </header>
+    <div class="layout">
+        <nav class="left-panel">
+            <!-- Collapsible Navigation Links -->
+            <button class="collapsible">Constitution</button>
+            <div class="collapsible-content">
+                <a href="constitution.html">Full Constitution</a>
+            </div>
+            <button class="collapsible">Penal Code</button>
+            <div class="collapsible-content">
+                <a href="penalcode.html">Penal Code Overview</a>
+            </div>
+            <button class="collapsible">Time and Fine Calculator</button>
+            <div class="collapsible-content">
+                <a href="timecalc.html">Calculator</a>
+            </div>
+        </nav>
+        <main class="content">
+            <h2>Welcome to the State of Monroe Legal Resources</h2>
+            <p>
+                This is the central hub for all legal documents and resources for Ranch Roleplay. Here, you will find comprehensive legal texts, including the State Constitution, Penal Code, and useful tools such as the Time and Fine Calculator.
+            </p>
+            <section>
+                <h3>Constitution</h3>
+                <p>
+                    The Constitution of the State of Monroe is the cornerstone of the legal framework. It outlines the basic rights and responsibilities of citizens and the government. Visit the Constitution section for the full document.
+                </p>
+                <a href="constitution.html">Read the Full Constitution</a>
+            </section>
+            <section>
+                <h3>Penal Code</h3>
+                <p>
+                    The Penal Code provides detailed information on all criminal activities, fines, and sentences applicable within the State of Monroe. Ensure you understand the law to remain compliant and informed.
+                </p>
+                <a href="penalcode.html">View the Penal Code</a>
+            </section>
+            <section>
+                <h3>Time and Fine Calculator</h3>
+                <p>
+                    The Time and Fine Calculator is an essential tool for determining penalties for various infractions. Lawmen and legal professionals use this tool to calculate sentences and fines accurately.
+                </p>
+                <a href="timecalc.html">Access the Calculator</a>
+            </section>
+        </main>
+    </div>
+    <script src="assets/js/collapsible_panel_script.js"></script>
+</body>
+</html>

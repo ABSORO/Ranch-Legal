@@ -516,7 +516,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
         </tr>
         <!-- Non-Criminal Infractions Header -->
         <tr>
-            <td colspan="5" class="non-criminal-infraction"><strong>Non-Criminal Infractions</strong></td>
+            <td colspan="6" class="non-criminal-infraction"><strong>Non-Criminal Infractions</strong></td>
         </tr>
         <tr class="non-criminal-infraction">
             <td>P.C. 4101</td>

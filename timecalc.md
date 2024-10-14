@@ -242,15 +242,6 @@ document.getElementById('clearButton').addEventListener('click', clearSelection)
 // Initialize the dropdown
 populateDropdown();
 
-function applyStyles() {
-  const calculator = document.getElementById('calculator');
-  calculator.style.maxWidth = '600px';
-  calculator.style.margin = '0 auto';
-  calculator.style.padding = '20px';
-  calculator.style.border = '1px solid #ddd';
-  calculator.style.borderRadius = '5px';
-  calculator.style.backgroundColor = 'white';
-
   const search = document.getElementById('search');
   search.style.width = '100%';
   search.style.padding = '10px';
@@ -271,11 +262,9 @@ function applyStyles() {
 window.onload = function() {
   populateDropdown();
   displayModifiers();
-  applyStyles();
 };
 </script>
 
-<style>
 #calculator {
   max-width: 600px;
   margin: 0 auto;
@@ -341,4 +330,3 @@ window.onload = function() {
 #clearButton:hover {
   background-color: #d32f2f;
 }
-</style>

@@ -205,6 +205,7 @@ table {
 .illegal-column {
     vertical-align: top;
     padding: 10px;
+    width: 50%;
 }
 
 .illegal-column h3 {
@@ -215,17 +216,17 @@ table {
     border-radius: 5px;
 }
 
-.illegal-column ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.illegal-list div {
+    padding: 5px;
+    margin-bottom: 2px;
 }
 
-.illegal-column li {
+.illegal-list div:nth-child(odd) {
     background-color: #f2f2f2;
-    margin-bottom: 5px;
-    padding: 8px;
-    border-radius: 3px;
+}
+
+.illegal-list div:nth-child(even) {
+    background-color: #ffffff;
 }
 
 @media (max-width: 768px) {

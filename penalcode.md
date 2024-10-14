@@ -170,5 +170,4 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>None</td>
             <td>Persons charged with crimes against public servants while in the commission of their duties shall have their sentence increased.</td>
         </tr>
-    </tbody>
-</table>
+

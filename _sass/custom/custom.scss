@@ -24,6 +24,19 @@ li {
   font-size: $font-size-small;
 }
 
+.main-content-wrap,
+.main-content,
+.page-content {
+  max-width: none !important;
+  width: calc(100% - 20px) !important; // 10px space on each side
+  margin: 0 auto;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* Layout Styles */
 .side-bar {
   width: $sidebar-width;
@@ -152,6 +165,7 @@ li {
     overflow-wrap: break-word;
     color: $text-color;
     font-size: $font-size-small;
+    font-weight: normal; // Ensure normal weight for table cells
   }
 
   th {
@@ -159,6 +173,7 @@ li {
     color: $header-text-color;
     font-size: $font-size-base;
     text-align: center;
+    font-weight: bold; // Headers are bold
   }
 
   /* Column Widths */
@@ -201,28 +216,27 @@ li {
     padding: 15px 0;
     font-size: $font-size-large;
     color: $text-color;
-    background-color: lighten($primary-bg-color, 20%);
   }
 
   /* Row Background Colors */
   .capital-felony td {
-    background-color: #ffcccc;
+    background-color: #ff5454;
   }
 
   .state-felony-first-degree td {
-    background-color: #ffd9b3;
+    background-color: #ff7f54;
   }
 
   .state-felony-second-degree td {
-    background-color: #ffe6cc;
+    background-color: #ffaa54;
   }
 
   .state-felony-third-degree td {
-    background-color: #fff2e6;
+    background-color: #ffd154;
   }
 
   .misdemeanor td {
-    background-color: #ffffcc;
+    background-color: #fff494;
   }
 
   .non-criminal-infraction td {
@@ -234,15 +248,26 @@ li {
   }
 }
 
+/* Ensure only headers and subheaders are bold */
+.penal-code-table th {
+  font-weight: bold;
+}
+
+.penal-code-table tr.category-header td,
+.penal-code-table tr[class$="-degree"] td {
+  font-weight: bold;
+}
+
 /* Illegal Items Table */
 #illegal-items-table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
+  text-align: center; // Center the table
 
   .illegal-items-header {
-    background-color: lighten($primary-bg-color, 20%);
-    color: $text-color;
+    background-color: $header-bg-color;
+    color: $header-text-color;
     text-align: center;
     font-weight: bold;
     font-size: $font-size-large;
@@ -253,12 +278,14 @@ li {
     vertical-align: top;
     padding: 10px;
     width: 50%;
+    box-sizing: border-box;
   }
 
   tr:last-child td {
     display: inline-block;
     width: 50%;
     box-sizing: border-box;
+    vertical-align: top;
   }
 
   .illegal-column h3 {
@@ -302,6 +329,10 @@ li {
     font-size: $font-size-base;
   }
 
+  .illegal-column {
+    width: 100%;
+  }
+
   .illegal-column h3 {
     font-size: $font-size-small;
   }
@@ -313,17 +344,20 @@ li {
 
 /* Additional Styles */
 .main-content-wrapper {
-  padding-left: 5px;
+  padding-left: 10px; // 10px space on the left
+  padding-right: 10px; // 10px space on the right
 }
 
 @media (max-width: 66.5rem) {
   .main-content-wrapper {
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 @media (max-width: 50rem) {
   .main-content-wrapper {
-    padding-left: 0;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }

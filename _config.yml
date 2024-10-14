@@ -9,8 +9,6 @@ kramdown:
 
 sass:
   sass_dir: _sass
+  style: compressed
 
-just_the_docs:
-  # Add any Just the Docs specific configurations here
-color_scheme: light
-  
+# Remove any color_scheme specification if present

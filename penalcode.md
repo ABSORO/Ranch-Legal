@@ -197,17 +197,6 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td></td>
         </tr>
         <!-- State Felonies - Third Degree Header -->
- <tr>
-            <th>Category</th>
-            <th>Charge</th>
-            <th>Max Time</th>
-            <th>Max Fine</th>
-            <th>Definition</th>
-            <th>Notes</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!-- State Felonies - Third Degree Header -->
         <tr>
             <td colspan="6" class="state-felony-third-degree"><strong>State Felony Charges - Third Degree</strong></td>
         </tr>

@@ -1,6 +1,6 @@
 sass:
   sass_dir: _sass
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.3.3
 just_the_docs:
 title: "Ranch Legal"
 description: "Legal resources for Ranch Roleplay"

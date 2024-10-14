@@ -137,15 +137,16 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>Shall Include Dynamite sticks and Fire-bottles</td>
         </tr>
         <!-- State Felonies - Second Degree Header -->
-        <tr>
-            <td colspan="5" class="state-felony-second-degree"><strong>State Felony Charges - Second Degree</strong></td>
+       <tr>
+            <td colspan="6" class="state-felony-second-degree"><strong>State Felony Charges - Second Degree</strong></td>
         </tr>
         <tr class="state-felony-second-degree">
             <td>P.C. 2201</td>
             <td>2nd Degree Murder</td>
             <td>5 Years</td>
-            <td>None</td>
-            <td>No person shall act in the unlawful killing of human beings without premeditated design.</td>
+            <td>N/A</td>
+            <td>No person shall act in the unlawful killing of human beings without premeditated design to effect the death of the person killed and shall be held equally liable if death occurs from any non-premeditated act.</td>
+            <td></td>
         </tr>
         <tr class="state-felony-second-degree">
             <td>P.C. 2202</td>
@@ -153,6 +154,47 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>1 Year</td>
             <td>$100</td>
             <td>Unintentionally causing the death of an individual through an act that was neither excusable nor justified without malicious aforethought.</td>
+            <td></td>
+        </tr>
+        <tr class="state-felony-second-degree">
+            <td>P.C. 2203</td>
+            <td>Failure to Appear</td>
+            <td>HUT</td>
+            <td>N/A</td>
+            <td>No person shall fail to appear in court on their scheduled court date. This will result in a bench warrant being issued by the presiding judge, and a default judgement being applied concerning the original criminal proceeding.</td>
+            <td>No bail available.</td>
+        </tr>
+        <tr class="state-felony-second-degree">
+            <td>P.C. 2204</td>
+            <td>Unsanctioned Dueling</td>
+            <td>1 Year</td>
+            <td>$150</td>
+            <td>Any kind of mutual duel utilising firearms or any kind of deadly weapon not sanctioned by a Judge, Sheriff, or Undersheriff that results in the death of one individual.</td>
+            <td></td>
+        </tr>
+        <tr class="state-felony-second-degree">
+            <td>P.C. 2205</td>
+            <td>Aggravated Battery</td>
+            <td>180 Days</td>
+            <td>$80</td>
+            <td>No person shall use lethal force against another human being, except in cases of Self Defense or Law Enforcement Duties.</td>
+            <td>This charge will cover most acts of violence with weapons, including gunfights, stabbings, and other uses of lethal force.</td>
+        </tr>
+        <tr class="state-felony-second-degree">
+            <td>P.C. 2206</td>
+            <td>Kidnapping or False Imprisonment</td>
+            <td>120 Days</td>
+            <td>$100</td>
+            <td>Unlawfully seizing and moving a person by force, or seizing and detaining a person against his or her will with an intent to carry that person away at a later time. This doesn't apply when taking the motions to help someone seeking medical attention.</td>
+            <td></td>
+        </tr>
+        <tr class="state-felony-second-degree">
+            <td>P.C. 2207</td>
+            <td>Extortion</td>
+            <td>60 Days</td>
+            <td>$80</td>
+            <td>No person shall, without lawful reason, by threat, accusations, or violence, induce any person to do anything but not limited to: Make ransom payments, make any kind of monetary transfer, or give up any kind of property.</td>
+            <td></td>
         </tr>
         <!-- State Felonies - Second Degree Header -->
             <tr>

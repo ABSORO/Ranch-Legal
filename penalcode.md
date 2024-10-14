@@ -591,7 +591,6 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
         </tr>
        <thead>
     <table id="illegal-items-table" class="penal-code-table"><strong>Illegal Items</strong>
-    </thead>
     <tbody>
         <tr>
             <td class="illegal-column">

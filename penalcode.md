@@ -78,7 +78,10 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td>This is the maximum, to be used in the most severe instances of torture. Please take the extent of the torture into account and adjust the time accordingly. Body part gone = Max Time.</td>
         <!-- State Felonies - First Degree Header -->
  <tr>
-            <td colspan="6" class="state-felony-first-degree"><strong>State Felony Charges - First Degree</strong></td>
+            <td colspan="6" class="state-felony-first-degree"><strong>State Felony Charges</strong></td>
+        </tr>
+         <tr>
+            <td colspan="6" class="state-felony-first-degree">First Degree</strong></td>
         </tr>
         <tr class="state-felony-first-degree">
             <td>P.C. 2101</td>
@@ -138,7 +141,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
         </tr>
         <!-- State Felonies - Second Degree Header -->
        <tr>
-            <td colspan="6" class="state-felony-second-degree"><strong>State Felony Charges - Second Degree</strong></td>
+            <td colspan="6" class="state-felony-second-degree"><strong>Second Degree</strong></td>
         </tr>
         <tr class="state-felony-second-degree">
             <td>P.C. 2201</td>
@@ -198,7 +201,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
         </tr>
         <!-- State Felonies - Third Degree Header -->
         <tr>
-            <td colspan="6" class="state-felony-third-degree"><strong>State Felony Charges - Third Degree</strong></td>
+            <td colspan="6" class="state-felony-third-degree"><strong>Third Degree</strong></td>
         </tr>
         <tr class="state-felony-third-degree">
             <td>P.C. 2301</td>

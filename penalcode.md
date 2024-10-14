@@ -81,7 +81,7 @@ MAX OVERALL TIME - 7 Years (7 OOC Days) MAX OVERALL FINE - $300
             <td colspan="6" class="state-felony-first-degree"><strong>State Felony Charges</strong></td>
         </tr>
          <tr>
-            <td colspan="6" class="state-felony-first-degree"><strong></strong>First Degree</strong></td>
+            <td colspan="6" class="state-felony-first-degree"><strong>First Degree</strong></td>
         </tr>
         <tr class="state-felony-first-degree">
             <td>P.C. 2101</td>
